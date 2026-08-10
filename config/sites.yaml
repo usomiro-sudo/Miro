@@ -1,44 +1,19 @@
-# Configuração dos sites monitorados.
-#
-# comparacao: concorrentes de porte parecido, comparados produto a produto.
-#   Preencha "listagem_url" com a URL da categoria "corrida masculina" (ou o
-#   catálogo mais próximo disso) de cada concorrente. O sistema varre essa
-#   listagem (com paginação) e faz o pareamento automático com os produtos
-#   MIRO por categoria/nome — ver scripts/matching.py e config/products.yaml.
-#   Deixe em branco para pular o matching automático desse concorrente (ele
-#   aparece como "sem equivalente" no dashboard até você preencher).
-#
-# referencia: marcas grandes, só para acompanhar tendência de preço e
-#   lançamentos de corrida masculina. Aqui apontamos para páginas de
-#   LISTAGEM (categoria "corrida masculina"), não produto a produto.
-#   Preencha "listagem_url" com a URL da categoria depois de navegar no site.
+# Concorrentes monitorados no painel de tendências (leitura da página principal
+# de cada um — ver scripts/monitor_tendencias.py). Só precisa de "base_url".
 
-comparacao:
+concorrentes:
   seekdopa:
     nome: "Seekdopa"
     base_url: "https://seekdopa.com"
-    listagem_url: ""   # ex: https://seekdopa.com/categoria/corrida-masculina
   woom:
     nome: "Woom"
     base_url: "https://www.woom.com.br"
-    listagem_url: ""   # ex: https://www.woom.com.br/corrida-masculina
   vorr:
     nome: "Vorr"
     base_url: "https://www.vorr.com.br"
-    listagem_url: ""   # ex: https://www.vorr.com.br/corrida-masculina
-
-referencia:
-  nike:
-    nome: "Nike"
-    base_url: "https://www.nike.com.br"
-    listagem_url: ""   # ex: categoria de corrida masculina
-  adidas:
-    nome: "Adidas"
-    base_url: "https://www.adidas.com.br"
-    listagem_url: ""   # ex: categoria de corrida masculina
 
 # Configurações de coleta (mantenha educado com os sites dos concorrentes)
 request:
-  user_agent: "MIRO-Intelligence/1.0 (+contato: uso.miro@outlook.com; monitoramento de preco publico)"
+  user_agent: "MIRO-Intelligence/1.0 (+contato: uso.miro@outlook.com; monitoramento de tendencia publico)"
   timeout_seconds: 15
   delay_seconds_between_requests: 3

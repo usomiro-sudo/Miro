@@ -1,12 +1,11 @@
-"""Leitura da PÁGINA PRINCIPAL (home) de cada concorrente de comparação direta
-(Seekdopa, Woom, Vorr) — sinal de tendência de produto/marketing, não comparação
-de preço nem catálogo completo. Olha o que cada marca está destacando na própria
-home agora (título, descrição, headlines/banners, produtos em destaque se
-houver) e compara com a leitura anterior pra apontar o que é novo.
+"""Leitura da PÁGINA PRINCIPAL (home) de cada concorrente (Seekdopa, Woom, Vorr)
+— sinal de tendência de produto/marketing, sem preço. Olha o que cada marca está
+destacando na própria home agora (título, descrição, headlines/banners, produtos
+em destaque se houver) e compara com a leitura anterior pra apontar o que é novo.
 
-Independente de scrape_competitors.py — lê só config/sites.yaml
-(comparacao.<site>.base_url). Rode manualmente quando quiser uma leitura fresca
-(GitHub Actions → Run workflow) ou deixe no agendamento automático.
+Lê só config/sites.yaml (concorrentes.<site>.base_url). Rode manualmente quando
+quiser uma leitura fresca (GitHub Actions → Run workflow) ou deixe no
+agendamento automático.
 """
 import json
 import os
@@ -71,7 +70,7 @@ def snapshots_na_janela(historico: list[dict], dias: int) -> list[dict]:
 def main() -> None:
     sites = load_sites_config()
     req_cfg = sites["request"]
-    concorrentes_cfg = sites["comparacao"]
+    concorrentes_cfg = sites["concorrentes"]
 
     historico = carregar_historico()
     anterior = historico[-1] if historico else None
