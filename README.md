@@ -12,7 +12,8 @@ Roda sozinho: um GitHub Action agendado coleta os dados, gera o dashboard e publ
 ## Como funciona por baixo dos panos
 
 - **Preços do MIRO**: via [API oficial da Nuvemshop](https://tiendanube.github.io/api-documentation/intro) (não faz scraping da própria loja).
-- **Preços dos concorrentes**: scraping leve das páginas de produto, extraindo o bloco padrão `schema.org/Product` (JSON-LD) que a maioria das lojas já inclui para SEO — mais robusto que depender de classes CSS que mudam a cada redesign de tema. Se a página não tiver esse bloco, cai num fallback simples de regex para achar o primeiro "R$ 000,00" (menos confiável — confira no dashboard).
+- **Preços dos concorrentes**: scraping leve, extraindo o bloco padrão `schema.org/Product` (JSON-LD) que a maioria das lojas já inclui para SEO — mais robusto que depender de classes CSS que mudam a cada redesign de tema. Se a página não tiver esse bloco, cai num fallback simples de regex para achar o primeiro "R$ 000,00" (menos confiável — confira no dashboard).
+- **Pareamento com o produto MIRO equivalente**: automático. O sistema varre o catálogo de "corrida masculina" de cada concorrente (com paginação), classifica cada item numa categoria (camiseta/meia/boné) pelo nome, e escolhe o mais parecido com o produto MIRO da mesma categoria por similaridade de texto. Cada resultado carrega um % de confiança do match — se um concorrente tira ou adiciona um produto do catálogo, a próxima execução já reflete isso sozinha, sem editar nada.
 - **Dados históricos**: cada execução também é anexada em `data/*_historico.jsonl`, então você acumula histórico de preços de graça via git.
 - **Dashboard**: página HTML estática gerada por `scripts/build_dashboard.py`, publicada no GitHub Pages.
 
@@ -26,11 +27,13 @@ Roda sozinho: um GitHub Action agendado coleta os dados, gera o dashboard e publ
    - `NUVEMSHOP_ACCESS_TOKEN`
 3. Em `config/products.yaml`, preencha `nuvemshop_id` de cada produto com o ID do produto na Nuvemshop (aparece na URL do admin). Sem isso, o script usa `preco_manual` (editado à mão) como fallback.
 
-### 2. URLs dos concorrentes (comparação direta)
+### 2. Catálogo dos concorrentes (comparação automática)
 
-Em `config/products.yaml`, para cada um dos 3 produtos, cole a URL da página do produto equivalente no Seekdopa, Woom e Vorr. Deixe em branco se não existir equivalente — o dashboard mostra "sem URL" nesse caso.
+Em `config/sites.yaml`, preencha `listagem_url` de cada concorrente (Seekdopa, Woom, Vorr) com a URL da categoria "corrida masculina" (ou o catálogo mais próximo disso) na loja deles. O sistema varre essa listagem sozinho a cada execução e faz o pareamento — não precisa colar URL de produto nenhuma.
 
-Isso é feito à mão de propósito: com só 3 produtos, é mais simples e confiável do que tentar casar produtos automaticamente.
+Cada produto em `config/products.yaml` já vem com uma `categoria` (camiseta/meia/bone) e `palavras_chave` opcionais que ajudam o matching. Se o pareamento automático errar para algum produto/concorrente específico, preencha `concorrentes_override` daquele produto com a URL certa — ela passa a ser usada no lugar do match automático até você tirar.
+
+No dashboard, cada preço de concorrente mostra um "match X%" indicando a confiança do pareamento automático (verde = alta, amarelo = média, vermelho = baixa) — vale conferir de vez em quando, principalmente os matches em vermelho.
 
 ### 3. URLs de referência (Nike/Adidas)
 
@@ -58,8 +61,9 @@ open ../dashboard/index.html
 
 ## Limitações conhecidas (fase 1, de propósito simples)
 
-- Sites com conteúdo carregado via JavaScript (comum em Nike/Adidas) podem não ter o bloco JSON-LD acessível via `requests` simples — o script avisa no log quando isso acontece ("considerar Playwright"). Não é crítico porque essa parte é só referência.
-- Mapeamento de produto concorrente é manual (por design, dado o catálogo pequeno).
+- Sites com conteúdo carregado via JavaScript (comum em Nike/Adidas, mas pode acontecer com qualquer concorrente) podem não ter o bloco JSON-LD acessível via `requests` simples — o script avisa no log quando isso acontece ("considerar Playwright") e o site fica sem matching automático até revisar. Não usamos Playwright de propósito, pra manter o scraping leve e rápido no GitHub Actions.
+- O pareamento automático é por similaridade de nome — pode errar (ex. confundir "meia de corrida" com "meia de compressão" se os nomes forem parecidos). O % de confiança no dashboard existe justamente pra sinalizar isso; use `concorrentes_override` em `config/products.yaml` para corrigir um caso pontual.
+- A paginação assume o padrão `?page=N` (comum em Nuvemshop/Shopify/Loja Integrada). Se algum concorrente usar outro esquema, só a primeira página do catálogo é lida.
 - Sem alertas automáticos (ex. "concorrente baixou o preço 20%") — pode ser adicionado depois se fizer sentido, mas fica fora do escopo do MVP.
 
 ## Estrutura

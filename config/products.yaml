@@ -1,8 +1,17 @@
-# Catálogo MIRO + mapeamento manual para as páginas equivalentes em cada concorrente.
+# Catálogo MIRO. O pareamento com os produtos equivalentes de cada concorrente é
+# automático (ver scripts/matching.py): o sistema varre o catálogo de "corrida
+# masculina" de cada concorrente (configurado em config/sites.yaml), classifica cada
+# item por categoria usando o nome do produto, e escolhe o mais parecido dentro da
+# mesma categoria. Não precisa colar URL nenhuma aqui.
 #
-# Como preencher "concorrentes": abra o site do concorrente, ache o produto mais
-# parecido (mesma categoria: camiseta de corrida, meia de corrida, boné de corrida)
-# e cole a URL da página do produto. Deixe em branco ("") se não existir equivalente.
+# "categoria": uma das chaves em CATEGORIAS_KEYWORDS (scripts/matching.py) —
+#   hoje: camiseta, meia, bone.
+# "palavras_chave": opcional, termos que ajudam a desempatar o match automático
+#   quando aparecem no nome do produto do concorrente (ex: "corrida", "dry-fit").
+# "concorrentes_override": opcional, válvula de escape. Se o match automático errar
+#   para algum concorrente específico, cole a URL certa aqui — ela passa a ser usada
+#   no lugar do automático até você tirar. Deixe em branco ("") para deixar 100%
+#   automático (comportamento padrão).
 #
 # "nuvemshop_id" é opcional: se preenchido, o preço do MIRO vem direto da API da
 # Nuvemshop (recomendado). Se deixar em branco, o preço do MIRO usado será o
@@ -12,7 +21,9 @@ produtos:
   - nome: "Camiseta de Corrida MIRO"
     nuvemshop_id: null
     preco_manual: null
-    concorrentes:
+    categoria: "camiseta"
+    palavras_chave: ["corrida", "dry-fit", "masculina"]
+    concorrentes_override:
       seekdopa: ""
       woom: ""
       vorr: ""
@@ -20,7 +31,9 @@ produtos:
   - nome: "Meia de Corrida MIRO"
     nuvemshop_id: null
     preco_manual: null
-    concorrentes:
+    categoria: "meia"
+    palavras_chave: ["corrida", "masculina"]
+    concorrentes_override:
       seekdopa: ""
       woom: ""
       vorr: ""
@@ -28,7 +41,9 @@ produtos:
   - nome: "Boné de Corrida MIRO"
     nuvemshop_id: null
     preco_manual: null
-    concorrentes:
+    categoria: "bone"
+    palavras_chave: ["corrida", "dry-fit", "masculino"]
+    concorrentes_override:
       seekdopa: ""
       woom: ""
       vorr: ""

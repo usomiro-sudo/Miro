@@ -3,6 +3,7 @@ import json
 import re
 import time
 from datetime import datetime, timezone
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -83,6 +84,66 @@ def extract_price_fallback(html: str) -> dict | None:
     if price is None:
         return None
     return {"nome_site": None, "preco": price, "disponivel": None, "fonte": "regex-fallback"}
+
+
+def extract_products_from_listing(html: str) -> list[dict]:
+    """Extrai todos os blocos schema.org/Product de uma página de listagem/categoria
+    (usado para varrer o catálogo inteiro de um concorrente, não só um produto)."""
+    soup = BeautifulSoup(html, "html.parser")
+    produtos = []
+    for tag in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(tag.string or "")
+        except (json.JSONDecodeError, TypeError):
+            continue
+        itens = data if isinstance(data, list) else [data]
+        for item in itens:
+            if isinstance(item, dict) and "@graph" in item:
+                itens.extend(item["@graph"])
+            if not isinstance(item, dict) or item.get("@type") not in ("Product", ["Product"]):
+                continue
+            achado = extract_product_from_jsonld(f'<script type="application/ld+json">{json.dumps(item)}</script>')
+            if achado:
+                achado["url"] = item.get("url")
+                produtos.append(achado)
+    return produtos
+
+
+def _url_com_pagina(url: str, pagina: int) -> str:
+    partes = urlsplit(url)
+    query = dict(parse_qsl(partes.query))
+    query["page"] = str(pagina)
+    return urlunsplit((partes.scheme, partes.netloc, partes.path, urlencode(query), partes.fragment))
+
+
+def fetch_catalog_products(
+    listagem_url: str, user_agent: str, timeout: int, delay_seconds: float, max_pages: int = 15
+) -> list[dict]:
+    """Percorre a paginação de uma página de listagem/categoria coletando produtos via
+    JSON-LD (schema.org/Product). Para quando uma página não traz produto novo
+    (deduplicado por URL/nome) ou ao atingir max_pages — proteção contra paginação
+    mal configurada ou loop infinito em sites que ignoram o parâmetro `page`.
+
+    Assume o padrão de paginação via querystring `?page=N`, comum em Nuvemshop/Shopify/
+    Loja Integrada. Se um concorrente usar outro esquema, essa função só vai retornar
+    a primeira página (melhor esforço, não é erro fatal).
+    """
+    vistos: set[str] = set()
+    produtos: list[dict] = []
+    for pagina in range(1, max_pages + 1):
+        url = listagem_url if pagina == 1 else _url_com_pagina(listagem_url, pagina)
+        html = fetch_html(url, user_agent, timeout)
+        if not html:
+            break
+        encontrados = extract_products_from_listing(html)
+        chaves_novas = [p.get("url") or p.get("nome_site") for p in encontrados]
+        novos = [p for p, chave in zip(encontrados, chaves_novas) if chave and chave not in vistos]
+        if not novos:
+            break
+        vistos.update(p.get("url") or p.get("nome_site") for p in novos)
+        produtos.extend(novos)
+        polite_sleep(delay_seconds)
+    return produtos
 
 
 def scrape_product_page(url: str, user_agent: str, timeout: int) -> dict | None:

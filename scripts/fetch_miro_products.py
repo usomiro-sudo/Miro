@@ -45,7 +45,13 @@ def get_miro_prices() -> list[dict]:
                 preco = fetch_nuvemshop_product(store_id, token, produto["nuvemshop_id"])
             except requests.RequestException as exc:
                 print(f"[aviso] falha ao buscar '{produto['nome']}' na Nuvemshop: {exc}")
-        resultados.append({"nome": produto["nome"], "preco_miro": preco, "concorrentes": produto["concorrentes"]})
+        resultados.append({
+            "nome": produto["nome"],
+            "preco_miro": preco,
+            "categoria": produto.get("categoria"),
+            "palavras_chave": produto.get("palavras_chave") or [],
+            "concorrentes_override": produto.get("concorrentes_override") or {},
+        })
     return resultados
 
 

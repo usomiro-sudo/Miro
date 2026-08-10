@@ -26,6 +26,10 @@
   .diff-pos { color: var(--bad); }   /* MIRO mais caro que concorrente */
   .diff-neg { color: var(--good); } /* MIRO mais barato */
   .muted { color: var(--muted); }
+  .confianca { font-size: .72rem; display: block; margin-top: .15rem; }
+  .confianca-alta { color: var(--good); }
+  .confianca-media { color: #a3791a; }
+  .confianca-baixa { color: var(--bad); }
   a { color: var(--accent); }
   .empty { color: var(--muted); font-size: .85rem; padding: .5rem 0; }
   footer { text-align: center; color: var(--muted); font-size: .78rem; margin-top: 2rem; }
@@ -40,7 +44,11 @@
 
   <section>
     <h2>Comparação de preços — concorrentes diretos</h2>
-    <p class="section-desc">Seekdopa, Woom e Vorr — diferença % em relação ao preço MIRO (vermelho = MIRO mais caro, verde = MIRO mais barato)</p>
+    <p class="section-desc">
+      Seekdopa, Woom e Vorr — diferença % em relação ao preço MIRO (vermelho = MIRO mais caro, verde = MIRO mais barato).
+      Pareamento automático por categoria + nome do produto — o % de match indica a confiança da correspondência
+      (passe o mouse pra ver qual produto do concorrente foi usado).
+    </p>
     {% if comparacao and comparacao.produtos %}
     <table>
       <thead>
@@ -60,13 +68,18 @@
           {% for chave in ["seekdopa", "woom", "vorr"] %}
             {% set c = p.concorrentes.get(chave, {}) %}
             <td class="num">
-              {% if c.url %}
-                <a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.preco | brl }}</a>
+              {% if c.preco is not none %}
+                <a href="{{ c.url }}" target="_blank" rel="noopener" title="{{ c.match_nome or '' }}">{{ c.preco | brl }}</a>
                 {% if c.diff_pct is not none %}
                   <br><span class="{{ 'diff-pos' if c.diff_pct > 0 else 'diff-neg' }}">{{ "%+.1f"|format(c.diff_pct) }}%</span>
                 {% endif %}
+                {% if c.origem == "manual" %}
+                  <span class="confianca muted">manual</span>
+                {% elif c.confianca is not none %}
+                  <span class="confianca confianca-{{ c.confianca_nivel }}">match {{ (c.confianca * 100) | round | int }}%</span>
+                {% endif %}
               {% else %}
-                <span class="muted">sem URL</span>
+                <span class="muted">sem equivalente</span>
               {% endif %}
             </td>
           {% endfor %}
