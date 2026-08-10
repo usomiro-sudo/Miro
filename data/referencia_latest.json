@@ -1,0 +1,13 @@
+{
+  "coletado_em": "2026-08-10T11:38:43.858376+00:00",
+  "marcas": {
+    "nike": {
+      "nome": "Nike",
+      "produtos": []
+    },
+    "adidas": {
+      "nome": "Adidas",
+      "produtos": []
+    }
+  }
+}
