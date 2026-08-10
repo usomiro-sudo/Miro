@@ -1,0 +1,104 @@
+{
+  "coletado_em": "2026-08-10T21:38:00.711806+00:00",
+  "produtos": [
+    {
+      "nome": "Camiseta de Corrida MIRO",
+      "preco_miro": null,
+      "concorrentes": {
+        "seekdopa": {
+          "preco": null,
+          "url": null,
+          "diff_pct": null,
+          "origem": "auto",
+          "confianca": 0.0,
+          "confianca_nivel": null,
+          "match_nome": null
+        },
+        "woom": {
+          "preco": null,
+          "url": null,
+          "diff_pct": null,
+          "origem": "auto",
+          "confianca": 0.0,
+          "confianca_nivel": null,
+          "match_nome": null
+        },
+        "vorr": {
+          "preco": null,
+          "url": null,
+          "diff_pct": null,
+          "origem": "auto",
+          "confianca": 0.0,
+          "confianca_nivel": null,
+          "match_nome": null
+        }
+      }
+    },
+    {
+      "nome": "Meia de Corrida MIRO",
+      "preco_miro": null,
+      "concorrentes": {
+        "seekdopa": {
+          "preco": null,
+          "url": null,
+          "diff_pct": null,
+          "origem": "auto",
+          "confianca": 0.0,
+          "confianca_nivel": null,
+          "match_nome": null
+        },
+        "woom": {
+          "preco": null,
+          "url": null,
+          "diff_pct": null,
+          "origem": "auto",
+          "confianca": 0.0,
+          "confianca_nivel": null,
+          "match_nome": null
+        },
+        "vorr": {
+          "preco": null,
+          "url": null,
+          "diff_pct": null,
+          "origem": "auto",
+          "confianca": 0.0,
+          "confianca_nivel": null,
+          "match_nome": null
+        }
+      }
+    },
+    {
+      "nome": "Boné de Corrida MIRO",
+      "preco_miro": null,
+      "concorrentes": {
+        "seekdopa": {
+          "preco": null,
+          "url": null,
+          "diff_pct": null,
+          "origem": "auto",
+          "confianca": 0.0,
+          "confianca_nivel": null,
+          "match_nome": null
+        },
+        "woom": {
+          "preco": null,
+          "url": null,
+          "diff_pct": null,
+          "origem": "auto",
+          "confianca": 0.0,
+          "confianca_nivel": null,
+          "match_nome": null
+        },
+        "vorr": {
+          "preco": null,
+          "url": null,
+          "diff_pct": null,
+          "origem": "auto",
+          "confianca": 0.0,
+          "confianca_nivel": null,
+          "match_nome": null
+        }
+      }
+    }
+  ]
+}
