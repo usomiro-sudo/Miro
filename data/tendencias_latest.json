@@ -1,6 +1,6 @@
 {
-  "coletado_em": "2026-08-10T21:38:01.110829+00:00",
-  "primeira_leitura": true,
+  "coletado_em": "2026-08-10T21:48:58.389289+00:00",
+  "primeira_leitura": false,
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -36,51 +36,51 @@
       "termos_em_alta": [
         [
           "dopa",
-          5
+          10
         ],
         [
           "race",
-          3
+          6
         ],
         [
           "parte",
-          2
+          4
         ],
         [
           "sportswear",
-          2
+          4
         ],
         [
           "collabs",
-          1
+          2
         ],
         [
           "drops",
-          1
+          2
         ],
         [
           "cima",
-          1
+          2
         ],
         [
           "baixo",
-          1
+          2
         ],
         [
           "triathlon",
-          1
+          2
         ],
         [
           "ciclismo",
-          1
+          2
         ],
         [
           "lifestyle",
-          1
+          2
         ],
         [
           "acessorios",
-          1
+          2
         ]
       ]
     },
@@ -127,51 +127,51 @@
       "termos_em_alta": [
         [
           "triathlon",
-          9
+          18
         ],
         [
           "macaquinho",
-          8
+          16
         ],
         [
           "revolution",
-          8
+          16
         ],
         [
           "woom",
-          4
+          8
         ],
         [
           "cartao",
-          4
+          8
         ],
         [
           "azul",
-          2
+          4
         ],
         [
           "black",
-          2
+          4
         ],
         [
           "imagem",
-          2
+          4
         ],
         [
           "store",
-          1
+          2
         ],
         [
           "lancamento",
-          1
+          2
         ],
         [
           "roxo",
-          1
+          2
         ],
         [
           "verde",
-          1
+          2
         ]
       ]
     },
@@ -228,51 +228,51 @@
       "termos_em_alta": [
         [
           "vorr",
-          20
+          40
         ],
         [
           "brasil",
-          16
+          32
         ],
         [
           "2026",
-          4
+          8
         ],
         [
           "lancamentos",
-          2
+          4
         ],
         [
           "tech",
-          2
+          4
         ],
         [
           "bruno",
-          2
+          4
         ],
         [
           "soares",
-          2
+          4
         ],
         [
           "entre",
-          2
+          4
         ],
         [
           "tenis",
-          2
+          4
         ],
         [
           "movimento",
-          2
+          4
         ],
         [
           "casa",
-          2
+          4
         ],
         [
           "saiu",
-          2
+          4
         ]
       ]
     }
