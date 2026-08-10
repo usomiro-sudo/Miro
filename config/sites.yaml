@@ -1,36 +1,59 @@
-# Configuração dos sites monitorados.
+# Configuração dos concorrentes monitorados.
 #
-# comparacao: concorrentes de porte parecido, comparados produto a produto
-#   (URLs individuais ficam em config/products.yaml)
-#
-# referencia: marcas grandes, só para acompanhar tendência de preço e
-#   lançamentos de corrida masculina. Aqui apontamos para páginas de
-#   LISTAGEM (categoria "corrida masculina"), não produto a produto.
-#   Preencha "listagem_url" com a URL da categoria depois de navegar no site.
+# Não é comparação de preço produto a produto: para cada concorrente
+# apontamos a HOME PAGE ("home_url") e o dashboard sinaliza tendências
+# encontradas nela — promoções/banners e novos lançamentos em destaque.
 
-comparacao:
+concorrentes:
   seekdopa:
     nome: "Seekdopa"
-    base_url: "https://seekdopa.com"
+    home_url: "https://seekdopa.com"
   woom:
     nome: "Woom"
-    base_url: "https://www.woom.com.br"
+    home_url: "https://www.woom.com.br"
   vorr:
     nome: "Vorr"
-    base_url: "https://www.vorr.com.br"
-
-referencia:
+    home_url: "https://www.vorr.com.br"
   nike:
     nome: "Nike"
-    base_url: "https://www.nike.com.br"
-    listagem_url: ""   # ex: categoria de corrida masculina
+    home_url: "https://www.nike.com.br"
   adidas:
     nome: "Adidas"
-    base_url: "https://www.adidas.com.br"
-    listagem_url: ""   # ex: categoria de corrida masculina
+    home_url: "https://www.adidas.com.br"
+
+# Palavras-chave usadas para classificar trechos de texto da home page.
+# Ajuste livremente sem precisar mexer em código (comparação é feita em
+# minúsculas, sem considerar acentuação da página).
+deteccao:
+  promocoes:
+    - "% off"
+    - "%off"
+    - "desconto"
+    - "cupom"
+    - "frete grátis"
+    - "frete gratis"
+    - "black friday"
+    - "liquidação"
+    - "liquidacao"
+    - "queima de estoque"
+    - "promoção"
+    - "promocao"
+    - "sale"
+  lancamentos:
+    - "lançamento"
+    - "lancamento"
+    - "novo"
+    - "nova coleção"
+    - "nova colecao"
+    - "chegou"
+    - "recém-chegado"
+    - "recem-chegado"
+    - "new arrival"
+    - "just in"
+    - "new drop"
 
 # Configurações de coleta (mantenha educado com os sites dos concorrentes)
 request:
-  user_agent: "MIRO-Intelligence/1.0 (+contato: uso.miro@outlook.com; monitoramento de preco publico)"
+  user_agent: "MIRO-Intelligence/1.0 (+contato: uso.miro@outlook.com; monitoramento publico de home pages)"
   timeout_seconds: 15
   delay_seconds_between_requests: 3

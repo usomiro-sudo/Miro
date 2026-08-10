@@ -7,27 +7,31 @@
 <style>
   :root {
     --bg: #f7f7f5; --panel: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
-    --border: #e5e5e2; --good: #1a7f4b; --bad: #b3261e; --accent: #1a1a1a;
+    --border: #e5e5e2; --accent: #1a1a1a; --novo: #1a7f4b; --encerrada: #b3261e;
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 2.5rem 1.5rem; background: var(--bg); color: var(--text);
          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 960px; margin: 0 auto; }
+  main { max-width: 1100px; margin: 0 auto; }
   h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
   .subtitle { color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
-  section { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
-            padding: 1.5rem; margin-bottom: 1.5rem; }
-  h2 { font-size: 1.05rem; margin: 0 0 .25rem; }
-  .section-desc { color: var(--muted); font-size: .85rem; margin-bottom: 1rem; }
-  table { width: 100%; border-collapse: collapse; font-size: .9rem; }
-  th, td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid var(--border); }
-  th { color: var(--muted); font-weight: 500; font-size: .78rem; text-transform: uppercase; letter-spacing: .02em; }
-  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
-  .diff-pos { color: var(--bad); }   /* MIRO mais caro que concorrente */
-  .diff-neg { color: var(--good); } /* MIRO mais barato */
-  .muted { color: var(--muted); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
+  section.card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+            padding: 1.25rem 1.4rem; }
+  h2 { font-size: 1.05rem; margin: 0 0 .15rem; }
+  h2 a { color: inherit; text-decoration: none; }
+  h2 a:hover { text-decoration: underline; }
+  h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .02em; color: var(--muted);
+       margin: 1rem 0 .4rem; font-weight: 500; }
+  ul { margin: 0; padding-left: 1.1rem; font-size: .88rem; }
+  li { margin-bottom: .3rem; }
+  .badge { display: inline-block; font-size: .68rem; font-weight: 600; text-transform: uppercase;
+           letter-spacing: .02em; padding: .05rem .35rem; border-radius: 4px; margin-left: .4rem; }
+  .badge-novo { background: #e4f4ea; color: var(--novo); }
+  .encerrada { color: var(--encerrada); text-decoration: line-through; }
+  .empty { color: var(--muted); font-size: .85rem; }
+  .erro { color: var(--encerrada); font-size: .85rem; }
   a { color: var(--accent); }
-  .empty { color: var(--muted); font-size: .85rem; padding: .5rem 0; }
   footer { text-align: center; color: var(--muted); font-size: .78rem; margin-top: 2rem; }
 </style>
 </head>
@@ -35,76 +39,59 @@
 <main>
   <h1>MIRO Intelligence</h1>
   <p class="subtitle">
-    {% if comparacao %}Atualizado em {{ comparacao.coletado_em }}{% else %}Ainda sem dados coletados{% endif %}
+    Tendências das home pages dos concorrentes ·
+    {% if tendencias %}atualizado em {{ tendencias.coletado_em }}{% else %}ainda sem dados coletados{% endif %}
   </p>
 
-  <section>
-    <h2>Comparação de preços — concorrentes diretos</h2>
-    <p class="section-desc">Seekdopa, Woom e Vorr — diferença % em relação ao preço MIRO (vermelho = MIRO mais caro, verde = MIRO mais barato)</p>
-    {% if comparacao and comparacao.produtos %}
-    <table>
-      <thead>
-        <tr>
-          <th>Produto</th>
-          <th class="num">MIRO</th>
-          <th class="num">Seekdopa</th>
-          <th class="num">Woom</th>
-          <th class="num">Vorr</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for p in comparacao.produtos %}
-        <tr>
-          <td>{{ p.nome }}</td>
-          <td class="num">{{ p.preco_miro | brl }}</td>
-          {% for chave in ["seekdopa", "woom", "vorr"] %}
-            {% set c = p.concorrentes.get(chave, {}) %}
-            <td class="num">
-              {% if c.url %}
-                <a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.preco | brl }}</a>
-                {% if c.diff_pct is not none %}
-                  <br><span class="{{ 'diff-pos' if c.diff_pct > 0 else 'diff-neg' }}">{{ "%+.1f"|format(c.diff_pct) }}%</span>
-                {% endif %}
-              {% else %}
-                <span class="muted">sem URL</span>
-              {% endif %}
-            </td>
-          {% endfor %}
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    {% else %}
-    <p class="empty">Nenhum dado ainda. Rode <code>scrape_competitors.py</code> ou aguarde a próxima execução automática.</p>
-    {% endif %}
-  </section>
+  {% if tendencias and tendencias.concorrentes %}
+  <div class="grid">
+    {% for chave, c in tendencias.concorrentes.items() %}
+    <section class="card">
+      <h2><a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.nome }}</a></h2>
 
-  <section>
-    <h2>Referência de mercado — tendência</h2>
-    <p class="section-desc">Nike e Adidas — sem comparação direta, só acompanhamento de preços/lançamentos de corrida masculina</p>
-    {% if referencia and referencia.marcas %}
-      {% for chave, marca in referencia.marcas.items() %}
-        <h3 style="font-size:.9rem; margin: 1rem 0 .4rem;">{{ marca.nome }}</h3>
-        {% if marca.produtos %}
-        <table>
-          <thead><tr><th>Produto</th><th class="num">Preço</th></tr></thead>
-          <tbody>
-            {% for prod in marca.produtos %}
-            <tr>
-              <td>{{ prod.nome_site or "-" }}</td>
-              <td class="num">{{ prod.preco | brl }}</td>
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>
+      {% if c.erro %}
+        <p class="erro">Não foi possível coletar ({{ c.erro }}) — conferir manualmente.</p>
+      {% else %}
+        <h3>Promoções / banners</h3>
+        {% if c.promocoes %}
+        <ul>
+          {% for p in c.promocoes %}
+          <li>{{ p }}{% if p in c.promocoes_novas %}<span class="badge badge-novo">novo</span>{% endif %}</li>
+          {% endfor %}
+          {% for p in c.promocoes_encerradas %}
+          <li class="encerrada">{{ p }}</li>
+          {% endfor %}
+        </ul>
+        {% elif c.promocoes_encerradas %}
+        <ul>
+          {% for p in c.promocoes_encerradas %}
+          <li class="encerrada">{{ p }}</li>
+          {% endfor %}
+        </ul>
         {% else %}
-        <p class="empty">Sem produtos coletados ainda para {{ marca.nome }}.</p>
+        <p class="empty">Nenhuma promoção detectada nesta coleta.</p>
         {% endif %}
-      {% endfor %}
-    {% else %}
-    <p class="empty">Nenhum dado ainda. Rode <code>scrape_reference.py</code> ou aguarde a próxima execução automática.</p>
-    {% endif %}
-  </section>
+
+        <h3>Lançamentos em destaque</h3>
+        {% if c.lancamentos %}
+        <ul>
+          {% for l in c.lancamentos %}
+          <li>
+            {% if l.url %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.texto }}</a>{% else %}{{ l.texto }}{% endif %}
+            {% if l.texto in c.lancamentos_novos %}<span class="badge badge-novo">novo</span>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="empty">Nenhum lançamento detectado nesta coleta.</p>
+        {% endif %}
+      {% endif %}
+    </section>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="empty">Nenhum dado ainda. Rode <code>scrape_homepage_trends.py</code> ou aguarde a próxima execução automática.</p>
+  {% endif %}
 
   <footer>MIRO Intelligence · gerado automaticamente</footer>
 </main>
