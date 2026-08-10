@@ -26,7 +26,7 @@ def fmt_brl(value) -> str:
 def main() -> None:
     comparacao = load_json("comparacao_latest.json")
     referencia = load_json("referencia_latest.json")
-    lancamentos = load_json("lancamentos_latest.json")
+    tendencias = load_json("tendencias_latest.json")
 
     env = Environment(loader=FileSystemLoader(os.path.join(BASE_DIR, "scripts", "templates")))
     env.filters["brl"] = fmt_brl
@@ -39,11 +39,11 @@ def main() -> None:
         f.write(html)
     print(f"Dashboard gerado em dashboard/index.html")
 
-    template_lancamentos = env.get_template("lancamentos.html.j2")
-    html_lancamentos = template_lancamentos.render(lancamentos=lancamentos)
-    with open(os.path.join(DASHBOARD_DIR, "lancamentos.html"), "w", encoding="utf-8") as f:
-        f.write(html_lancamentos)
-    print(f"Painel de lançamentos gerado em dashboard/lancamentos.html")
+    template_tendencias = env.get_template("tendencias.html.j2")
+    html_tendencias = template_tendencias.render(tendencias=tendencias)
+    with open(os.path.join(DASHBOARD_DIR, "tendencias.html"), "w", encoding="utf-8") as f:
+        f.write(html_tendencias)
+    print(f"Painel de tendências gerado em dashboard/tendencias.html")
 
 
 if __name__ == "__main__":

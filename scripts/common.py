@@ -118,6 +118,44 @@ def extract_products_from_listing(html: str) -> list[dict]:
     return produtos
 
 
+def extract_home_signals(html: str) -> dict:
+    """Extrai sinal de tendencia/marketing da PAGINA INICIAL de um site: titulo,
+    meta descricao, textos de destaque (h1/h2/h3 + alt de imagem/banner) e
+    produtos em JSON-LD se a home expuser algum (nem toda home tem). Usado pro
+    painel de tendencias — nao tenta listar o catalogo inteiro, so o que a marca
+    escolheu destacar na propria home nesse momento."""
+    soup = BeautifulSoup(html, "html.parser")
+
+    titulo = soup.title.get_text(strip=True) if soup.title else None
+
+    descricao = None
+    meta_desc = soup.find("meta", attrs={"name": "description"}) or soup.find(
+        "meta", attrs={"property": "og:description"}
+    )
+    if meta_desc and meta_desc.get("content"):
+        descricao = meta_desc["content"].strip()
+
+    destaques: list[str] = []
+    vistos: set[str] = set()
+    for tag in soup.find_all(["h1", "h2", "h3"]):
+        texto = tag.get_text(" ", strip=True)
+        if texto and len(texto) >= 3 and texto.lower() not in vistos:
+            vistos.add(texto.lower())
+            destaques.append(texto)
+    for img in soup.find_all("img"):
+        alt = (img.get("alt") or "").strip()
+        if alt and len(alt) >= 3 and alt.lower() not in vistos:
+            vistos.add(alt.lower())
+            destaques.append(alt)
+
+    return {
+        "titulo": titulo,
+        "descricao": descricao,
+        "destaques": destaques[:40],
+        "produtos_destaque": extract_products_from_listing(html),
+    }
+
+
 def _url_com_pagina(url: str, pagina: int) -> str:
     partes = urlsplit(url)
     query = dict(parse_qsl(partes.query))
