@@ -1,0 +1,34 @@
+# Catálogo MIRO + mapeamento manual para as páginas equivalentes em cada concorrente.
+#
+# Como preencher "concorrentes": abra o site do concorrente, ache o produto mais
+# parecido (mesma categoria: camiseta de corrida, meia de corrida, boné de corrida)
+# e cole a URL da página do produto. Deixe em branco ("") se não existir equivalente.
+#
+# "nuvemshop_id" é opcional: se preenchido, o preço do MIRO vem direto da API da
+# Nuvemshop (recomendado). Se deixar em branco, o preço do MIRO usado será o
+# "preco_manual" abaixo, editado à mão.
+
+produtos:
+  - nome: "Camiseta de Corrida MIRO"
+    nuvemshop_id: null
+    preco_manual: null
+    concorrentes:
+      seekdopa: ""
+      woom: ""
+      vorr: ""
+
+  - nome: "Meia de Corrida MIRO"
+    nuvemshop_id: null
+    preco_manual: null
+    concorrentes:
+      seekdopa: ""
+      woom: ""
+      vorr: ""
+
+  - nome: "Boné de Corrida MIRO"
+    nuvemshop_id: null
+    preco_manual: null
+    concorrentes:
+      seekdopa: ""
+      woom: ""
+      vorr: ""

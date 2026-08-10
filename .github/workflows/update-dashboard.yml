@@ -1,0 +1,67 @@
+name: Atualizar dashboard MIRO Intelligence
+
+on:
+  schedule:
+    # Segundas e quintas, 09:00 UTC (~06:00 horário de Brasília)
+    - cron: "0 9 * * 1,4"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Coletar preços dos concorrentes
+        working-directory: scripts
+        run: python scrape_competitors.py
+        env:
+          NUVEMSHOP_STORE_ID: ${{ secrets.NUVEMSHOP_STORE_ID }}
+          NUVEMSHOP_ACCESS_TOKEN: ${{ secrets.NUVEMSHOP_ACCESS_TOKEN }}
+
+      - name: Coletar referência de mercado (Nike/Adidas)
+        working-directory: scripts
+        run: python scrape_reference.py
+
+      - name: Gerar dashboard
+        working-directory: scripts
+        run: python build_dashboard.py
+
+      - name: Commitar dados e dashboard atualizados
+        run: |
+          git config user.name "miro-intelligence-bot"
+          git config user.email "actions@github.com"
+          git add data/ dashboard/
+          git diff --cached --quiet || git commit -m "chore: atualizar dados de preços ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Publicar no GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+  deploy-pages:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
