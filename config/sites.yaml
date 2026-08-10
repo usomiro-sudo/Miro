@@ -1,7 +1,12 @@
 # Configuração dos sites monitorados.
 #
-# comparacao: concorrentes de porte parecido, comparados produto a produto
-#   (URLs individuais ficam em config/products.yaml)
+# comparacao: concorrentes de porte parecido, comparados produto a produto.
+#   Preencha "listagem_url" com a URL da categoria "corrida masculina" (ou o
+#   catálogo mais próximo disso) de cada concorrente. O sistema varre essa
+#   listagem (com paginação) e faz o pareamento automático com os produtos
+#   MIRO por categoria/nome — ver scripts/matching.py e config/products.yaml.
+#   Deixe em branco para pular o matching automático desse concorrente (ele
+#   aparece como "sem equivalente" no dashboard até você preencher).
 #
 # referencia: marcas grandes, só para acompanhar tendência de preço e
 #   lançamentos de corrida masculina. Aqui apontamos para páginas de
@@ -12,12 +17,15 @@ comparacao:
   seekdopa:
     nome: "Seekdopa"
     base_url: "https://seekdopa.com"
+    listagem_url: ""   # ex: https://seekdopa.com/categoria/corrida-masculina
   woom:
     nome: "Woom"
     base_url: "https://www.woom.com.br"
+    listagem_url: ""   # ex: https://www.woom.com.br/corrida-masculina
   vorr:
     nome: "Vorr"
     base_url: "https://www.vorr.com.br"
+    listagem_url: ""   # ex: https://www.vorr.com.br/corrida-masculina
 
 referencia:
   nike:

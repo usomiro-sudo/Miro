@@ -10,10 +10,8 @@ import json
 import os
 
 import yaml
-from bs4 import BeautifulSoup
 
-from common import fetch_html, now_iso, polite_sleep
-from common import extract_product_from_jsonld
+from common import fetch_catalog_products, now_iso
 
 CONFIG_DIR = os.path.join(os.path.dirname(__file__), "..", "config")
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -22,24 +20,6 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 def load_sites_config() -> dict:
     with open(os.path.join(CONFIG_DIR, "sites.yaml"), encoding="utf-8") as f:
         return yaml.safe_load(f)
-
-
-def extract_listagem_jsonld(html: str) -> list[dict]:
-    """Paginas de listagem as vezes trazem varios blocos Product em JSON-LD."""
-    soup = BeautifulSoup(html, "html.parser")
-    produtos = []
-    for tag in soup.find_all("script", type="application/ld+json"):
-        try:
-            data = json.loads(tag.string or "")
-        except (json.JSONDecodeError, TypeError):
-            continue
-        itens = data if isinstance(data, list) else [data]
-        for item in itens:
-            if isinstance(item, dict) and item.get("@type") == "Product":
-                achado = extract_product_from_jsonld(f"<script type=\"application/ld+json\">{json.dumps(item)}</script>")
-                if achado:
-                    produtos.append(achado)
-    return produtos
 
 
 def main() -> None:
@@ -54,13 +34,13 @@ def main() -> None:
             print(f"[info] {cfg['nome']}: listagem_url nao configurada, pulando")
             resultado["marcas"][chave] = {"nome": cfg["nome"], "produtos": []}
             continue
-        html = fetch_html(url, req_cfg["user_agent"], req_cfg["timeout_seconds"])
-        produtos = extract_listagem_jsonld(html) if html else []
-        if html and not produtos:
+        produtos = fetch_catalog_products(
+            url, req_cfg["user_agent"], req_cfg["timeout_seconds"], req_cfg["delay_seconds_between_requests"]
+        )
+        if not produtos:
             print(f"[aviso] {cfg['nome']}: pagina carregada mas sem Product JSON-LD "
                   f"(provavelmente renderizada via JS - considerar Playwright)")
         resultado["marcas"][chave] = {"nome": cfg["nome"], "produtos": produtos}
-        polite_sleep(req_cfg["delay_seconds_between_requests"])
 
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(os.path.join(DATA_DIR, "referencia_latest.json"), "w", encoding="utf-8") as f:
