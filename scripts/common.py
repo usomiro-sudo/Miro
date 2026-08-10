@@ -2,6 +2,7 @@
 import json
 import re
 import time
+import unicodedata
 from datetime import datetime, timezone
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
@@ -9,6 +10,14 @@ import requests
 from bs4 import BeautifulSoup
 
 PRICE_RE = re.compile(r"R\$\s*([\d.]{1,3}(?:\.\d{3})*,\d{2}|\d+,\d{2}|\d+\.\d{2})")
+
+
+def normalizar_texto(texto: str | None) -> str:
+    """Minusculo, sem acento, espacos colapsados — usado tanto no matching de preco
+    quanto na deteccao de termos em alta nos lancamentos."""
+    texto = texto or ""
+    texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"\s+", " ", texto.lower()).strip()
 
 
 def fetch_html(url: str, user_agent: str, timeout: int) -> str | None:

@@ -7,9 +7,9 @@ Isso é inerentemente impreciso (nomes de produtos variam muito entre lojas) —
 por isso todo resultado carrega o score, e o dashboard mostra o nível de
 confiança em vez de fingir uma correspondência exata.
 """
-import re
-import unicodedata
 from difflib import SequenceMatcher
+
+from common import normalizar_texto as _normalizar
 
 CATEGORIAS_KEYWORDS = {
     "camiseta": ["camiseta", "camisa", "regata", "top", "blusa", "manga longa", "manga curta"],
@@ -20,12 +20,6 @@ CATEGORIAS_KEYWORDS = {
 # Abaixo desse score, o match é descartado (melhor "sem equivalente" do que um
 # palpite ruim mostrado como se fosse confiável).
 SCORE_MINIMO = 0.2
-
-
-def _normalizar(texto: str | None) -> str:
-    texto = texto or ""
-    texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
-    return re.sub(r"\s+", " ", texto.lower()).strip()
 
 
 def categorizar(nome: str) -> str | None:

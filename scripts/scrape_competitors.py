@@ -53,6 +53,37 @@ def coletar_catalogos(concorrentes_cfg: dict, req_cfg: dict) -> dict[str, list[d
     return catalogos
 
 
+def salvar_snapshot_catalogos(catalogos: dict[str, list[dict]], concorrentes_cfg: dict) -> None:
+    """Grava o catalogo completo (nao so os produtos pareados com o MIRO) em
+    data/catalogo_historico.jsonl. E a partir dessa serie historica que
+    scripts/detect_lancamentos.py detecta produto novo/saiu do catalogo e
+    calcula termos em alta — nao tem a ver com comparacao de preco."""
+    os.makedirs(DATA_DIR, exist_ok=True)
+    snapshot = {
+        "coletado_em": now_iso(),
+        "concorrentes": {
+            chave: {
+                "nome": concorrentes_cfg[chave]["nome"],
+                "produtos": [
+                    {
+                        "nome_site": p.get("nome_site"),
+                        "preco": p.get("preco"),
+                        "url": p.get("url"),
+                        "categoria": p.get("categoria"),
+                        "disponivel": p.get("disponivel"),
+                    }
+                    for p in produtos
+                ],
+            }
+            for chave, produtos in catalogos.items()
+        },
+    }
+    with open(os.path.join(DATA_DIR, "catalogo_latest.json"), "w", encoding="utf-8") as f:
+        json.dump(snapshot, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(DATA_DIR, "catalogo_historico.jsonl"), "a", encoding="utf-8") as f:
+        f.write(json.dumps(snapshot, ensure_ascii=False) + "\n")
+
+
 def parear_concorrente(produto_miro: dict, chave: str, cfg: dict, catalogo: list[dict], req_cfg: dict) -> dict:
     override_url = (produto_miro.get("concorrentes_override") or {}).get(chave)
     if override_url:
@@ -100,6 +131,7 @@ def main() -> None:
     concorrentes_cfg = sites["comparacao"]
 
     catalogos = coletar_catalogos(concorrentes_cfg, req_cfg)
+    salvar_snapshot_catalogos(catalogos, concorrentes_cfg)
 
     linhas = []
     for produto in get_miro_prices():

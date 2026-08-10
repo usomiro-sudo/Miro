@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIRO Intelligence — Lançamentos &amp; Tendências</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --panel: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
+    --border: #e5e5e2; --good: #1a7f4b; --bad: #b3261e; --accent: #1a1a1a; --tag-bg: #f0efe9;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 2.5rem 1.5rem; background: var(--bg); color: var(--text);
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+  .subtitle { color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
+  .subtitle a { color: var(--accent); }
+  section { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+            padding: 1.5rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 1.1rem; margin: 0 0 .25rem; }
+  h3 { font-size: .95rem; margin: 0 0 .1rem; }
+  .section-desc { color: var(--muted); font-size: .85rem; margin-bottom: 1rem; }
+  .concorrente-header { display: flex; align-items: baseline; justify-content: space-between;
+                         margin-bottom: .75rem; flex-wrap: wrap; gap: .4rem; }
+  .stat-total { color: var(--muted); font-size: .82rem; }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; margin-bottom: .5rem; }
+  th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; font-size: .75rem; text-transform: uppercase; letter-spacing: .02em; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .badge { display: inline-block; font-size: .68rem; padding: .1rem .45rem; border-radius: 999px;
+           text-transform: uppercase; letter-spacing: .02em; }
+  .badge-novo { background: #e4f4ea; color: var(--good); }
+  .badge-saiu { background: #f7e6e4; color: var(--bad); }
+  .categoria-tag { display: inline-block; font-size: .75rem; color: var(--muted); }
+  .termos { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .termo { background: var(--tag-bg); border-radius: 6px; padding: .25rem .55rem; font-size: .8rem; }
+  .termo-count { color: var(--muted); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  .empty { color: var(--muted); font-size: .85rem; padding: .5rem 0; }
+  footer { text-align: center; color: var(--muted); font-size: .78rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>MIRO Intelligence — Lançamentos &amp; Tendências</h1>
+  <p class="subtitle">
+    {% if lancamentos %}Atualizado em {{ lancamentos.coletado_em }}{% else %}Ainda sem dados coletados{% endif %}
+    <br><a href="index.html">← Comparação de preços</a>
+  </p>
+
+  <section>
+    <p class="section-desc" style="margin-bottom:0;">
+      Foco em produto e marketing, não em preço: o que Seekdopa, Woom e Vorr estão lançando e tirando de linha,
+      e quais termos aparecem com mais frequência nos nomes dos produtos recentes — sinal simples de pra onde
+      cada um está apostando. Serve de insumo pra projeção de tendência do MIRO, não é conclusão pronta.
+    </p>
+  </section>
+
+  {% if not lancamentos %}
+  <section>
+    <p class="empty">Nenhum dado ainda. Rode <code>scrape_competitors.py</code> e depois <code>detect_lancamentos.py</code>, ou aguarde a próxima execução automática.</p>
+  </section>
+  {% elif lancamentos.primeira_coleta %}
+  <section>
+    <p class="empty">
+      Essa é a primeira coleta de catálogo registrada — ainda não há uma execução anterior pra comparar.
+      Lançamentos e produtos descontinuados aparecem a partir da <strong>próxima</strong> execução.
+      Termos em alta já aparecem abaixo, com base no catálogo atual.
+    </p>
+  </section>
+  {% endif %}
+
+  {% if lancamentos and lancamentos.concorrentes %}
+    {% for chave, c in lancamentos.concorrentes.items() %}
+    <section>
+      <div class="concorrente-header">
+        <h2>{{ c.nome }}</h2>
+        <span class="stat-total">
+          {{ c.total_catalogo }} produto{{ "s" if c.total_catalogo != 1 else "" }} no catálogo hoje
+          {% if c.por_categoria %}
+            · {% for cat, n in c.por_categoria.items() %}{{ cat or "outro" }}: {{ n }}{{ ", " if not loop.last else "" }}{% endfor %}
+          {% endif %}
+        </span>
+      </div>
+
+      {% if c.falha_coleta %}
+      <p class="empty" style="color: var(--bad);">
+        Catálogo veio vazio nessa coleta (provável falha ao acessar o site) — comparação de lançamentos/saídas
+        pulada nessa execução pra evitar falso positivo. Deve normalizar na próxima.
+      </p>
+      {% endif %}
+
+      <h3>Lançamentos desde a última coleta ({{ c.lancamentos | length }})</h3>
+      {% if c.lancamentos %}
+      <table>
+        <thead><tr><th>Produto</th><th>Categoria</th><th class="num">Preço</th></tr></thead>
+        <tbody>
+          {% for p in c.lancamentos %}
+          <tr>
+            <td>
+              <span class="badge badge-novo">novo</span>
+              {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.nome_site or "-" }}</a>{% else %}{{ p.nome_site or "-" }}{% endif %}
+            </td>
+            <td><span class="categoria-tag">{{ p.categoria or "outro" }}</span></td>
+            <td class="num">{{ ("R$ %.2f"|format(p.preco)).replace(".", ",") if p.preco is not none else "-" }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p class="empty">Nenhum produto novo desde a última coleta.</p>
+      {% endif %}
+
+      <h3>Saíram do catálogo ({{ c.descontinuados | length }})</h3>
+      {% if c.descontinuados %}
+      <table>
+        <thead><tr><th>Produto</th><th>Categoria</th></tr></thead>
+        <tbody>
+          {% for p in c.descontinuados %}
+          <tr>
+            <td><span class="badge badge-saiu">saiu</span> {{ p.nome_site or "-" }}</td>
+            <td><span class="categoria-tag">{{ p.categoria or "outro" }}</span></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p class="empty">Nenhum produto saiu do catálogo desde a última coleta.</p>
+      {% endif %}
+
+      <h3>Termos em alta nos nomes dos produtos (últimos {{ 60 }} dias)</h3>
+      {% if c.termos_em_alta %}
+      <div class="termos">
+        {% for termo, contagem in c.termos_em_alta %}
+        <span class="termo">{{ termo }} <span class="termo-count">×{{ contagem }}</span></span>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="empty">Sem termos suficientes pra destacar ainda.</p>
+      {% endif %}
+    </section>
+    {% endfor %}
+  {% endif %}
+
+  <footer>MIRO Intelligence · gerado automaticamente · análise de termos é heurística simples, não NLP</footer>
+</main>
+</body>
+</html>

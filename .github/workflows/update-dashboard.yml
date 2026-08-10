@@ -39,6 +39,10 @@ jobs:
         working-directory: scripts
         run: python scrape_reference.py
 
+      - name: Detectar lançamentos e tendências dos concorrentes
+        working-directory: scripts
+        run: python detect_lancamentos.py
+
       - name: Gerar dashboard
         working-directory: scripts
         run: python build_dashboard.py
