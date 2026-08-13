@@ -2,8 +2,8 @@ name: Atualizar dashboard MIRO Intelligence
 
 on:
   schedule:
-    # Segundas e quintas, 09:00 UTC (~06:00 horário de Brasília)
-    - cron: "0 9 * * 1,4"
+    # Todo dia, 07:00 UTC (04:00 horário de Brasília)
+    - cron: "0 7 * * *"
   workflow_dispatch: {}
 
 permissions:
