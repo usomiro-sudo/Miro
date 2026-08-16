@@ -57,7 +57,7 @@ deteccao:
 provas:
   fonte:
     nome: "Corridinhas"
-    url: "https://www.corridinhas.com.br"
+    url: "https://www.corridinhas.com.br/races"
   janela_meses: 12
 
 # Configurações de coleta (mantenha educado com os sites dos concorrentes)
