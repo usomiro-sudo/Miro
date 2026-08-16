@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-16T07:56:21.164686+00:00",
+  "coletado_em": "2026-08-16T20:06:42.528368+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -87,11 +87,11 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG XG Lançamento BERMUDA D'ÁGUA PIPA - AREIA R$ 329,65 no pix ou 3x de R$ 115,66 sem juros",
+          "texto": "compra rápida + Lançamento TÊNIS PULSE UNISSEX - CHUMBO R$ 538,65 no pix ou 5x de R$ 113,40 sem juros",
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG XG Lançamento",
+          "texto": "compra rápida + Lançamento",
           "url": null
         },
         {
@@ -101,7 +101,10 @@
       ],
       "promocoes_novas": [],
       "promocoes_encerradas": [],
-      "lancamentos_novos": []
+      "lancamentos_novos": [
+        "compra rápida + Lançamento TÊNIS PULSE UNISSEX - CHUMBO R$ 538,65 no pix ou 5x de R$ 113,40 sem juros",
+        "compra rápida + Lançamento"
+      ]
     },
     "nike": {
       "nome": "Nike",
