@@ -27,14 +27,22 @@ def fmt_datetime_brasilia(iso_str: str | None) -> str:
     return dt.strftime("%d/%m/%Y às %H:%M") + " (horário de Brasília)"
 
 
+def fmt_data_curta(iso_str: str | None) -> str:
+    if not iso_str:
+        return "-"
+    return datetime.fromisoformat(iso_str).strftime("%d/%m/%Y")
+
+
 def main() -> None:
     tendencias = load_json("tendencias_latest.json")
+    provas = load_json("provas_latest.json")
 
     env = Environment(loader=FileSystemLoader(os.path.join(BASE_DIR, "scripts", "templates")))
     env.filters["data_brasilia"] = fmt_datetime_brasilia
+    env.filters["data_curta"] = fmt_data_curta
     template = env.get_template("dashboard.html.j2")
 
-    html = template.render(tendencias=tendencias)
+    html = template.render(tendencias=tendencias, provas=provas)
 
     os.makedirs(DASHBOARD_DIR, exist_ok=True)
     with open(os.path.join(DASHBOARD_DIR, "index.html"), "w", encoding="utf-8") as f:

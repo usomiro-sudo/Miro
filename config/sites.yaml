@@ -52,6 +52,14 @@ deteccao:
     - "just in"
     - "new drop"
 
+# Fonte para a aba "Provas de corrida" — só entram provas que oferecem
+# meia maratona (21km) e/ou maratona (42km); outras distâncias são ignoradas.
+provas:
+  fonte:
+    nome: "Corridinhas"
+    url: "https://www.corridinhas.com.br"
+  janela_meses: 12
+
 # Configurações de coleta (mantenha educado com os sites dos concorrentes)
 request:
   user_agent: "MIRO-Intelligence/1.0 (+contato: uso.miro@outlook.com; monitoramento publico de home pages)"
