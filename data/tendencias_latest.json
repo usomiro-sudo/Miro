@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-17T09:11:24.226020+00:00",
+  "coletado_em": "2026-08-18T08:18:35.798199+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -59,15 +59,15 @@
         "FRETE GRÁTIS | COMPRAS ACIMA DE R$399 GANHE 15% OFF | CASHBACK",
         "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
         "GANHE 15% OFF | CASHBACK",
-        "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
-        "SALE",
         "GANHE 12% OFF",
-        "SALE PROGRESSIVA 25% Off  em todo o site VER MAIS SALE PROGRESSIVA 25% Off  em todo o site VER MAIS",
-        "SALE PROGRESSIVA 25% Off  em todo o site VER MAIS"
+        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
+        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
+        "30% Off  em todo o site",
+        "KITS 20% OFF Seleção dos mais vendidos VER MAIS KITS 20% OFF Seleção dos mais vendidos VER MAIS"
       ],
       "lancamentos": [
         {
-          "texto": "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
+          "texto": "DIA DO CICLISTA ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
           "url": null
         },
         {
@@ -87,11 +87,11 @@
           "url": null
         },
         {
-          "texto": "compra rápida + Lançamento TÊNIS PULSE UNISSEX - CHUMBO R$ 538,65 no pix ou 5x de R$ 113,40 sem juros",
+          "texto": "compra rápida + Único Lançamento MOCHILA AERO RIPSTOP E COURO LEGÍTIMO - PRETO R$ 662,15 no pix ou 6x de R$ 116,16 sem juros",
           "url": null
         },
         {
-          "texto": "compra rápida + Lançamento",
+          "texto": "compra rápida + Único Lançamento",
           "url": null
         },
         {
@@ -99,9 +99,23 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
-      "lancamentos_novos": []
+      "promocoes_novas": [
+        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
+        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
+        "30% Off  em todo o site",
+        "KITS 20% OFF Seleção dos mais vendidos VER MAIS KITS 20% OFF Seleção dos mais vendidos VER MAIS"
+      ],
+      "promocoes_encerradas": [
+        "SALE",
+        "SALE PROGRESSIVA 25% Off  em todo o site VER MAIS",
+        "SALE PROGRESSIVA 25% Off  em todo o site VER MAIS SALE PROGRESSIVA 25% Off  em todo o site VER MAIS",
+        "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE"
+      ],
+      "lancamentos_novos": [
+        "DIA DO CICLISTA ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
+        "compra rápida + Único Lançamento MOCHILA AERO RIPSTOP E COURO LEGÍTIMO - PRETO R$ 662,15 no pix ou 6x de R$ 116,16 sem juros",
+        "compra rápida + Único Lançamento"
+      ]
     },
     "nike": {
       "nome": "Nike",
