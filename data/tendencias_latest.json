@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-23T07:59:13.533248+00:00",
+  "coletado_em": "2026-08-24T09:30:44.644599+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -47,19 +47,9 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
-        "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
-        "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
-        "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
-        "com desconto",
-        "desconto"
-      ],
+      "promocoes_novas": [],
       "promocoes_encerradas": [],
-      "lancamentos_novos": [
-        "Lançamento 01/12",
-        "Lançamento"
-      ]
+      "lancamentos_novos": []
     },
     "vorr": {
       "nome": "Vorr",
