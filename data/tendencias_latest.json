@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-24T09:30:44.644599+00:00",
+  "coletado_em": "2026-08-25T09:09:08.256312+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -59,15 +59,15 @@
         "FRETE GRÁTIS | COMPRAS ACIMA DE R$399 GANHE 15% OFF | CASHBACK",
         "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
         "GANHE 15% OFF | CASHBACK",
+        "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
+        "SALE",
         "GANHE 12% OFF",
-        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
-        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
-        "30% Off  em todo o site",
-        "KITS 20% OFF Seleção dos mais vendidos VER MAIS KITS 20% OFF Seleção dos mais vendidos VER MAIS"
+        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS",
+        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS"
       ],
       "lancamentos": [
         {
-          "texto": "DIA DO CICLISTA ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
+          "texto": "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
           "url": null
         },
         {
@@ -99,9 +99,21 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
-      "lancamentos_novos": []
+      "promocoes_novas": [
+        "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
+        "SALE",
+        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS",
+        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS"
+      ],
+      "promocoes_encerradas": [
+        "30% Off  em todo o site",
+        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
+        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
+        "KITS 20% OFF Seleção dos mais vendidos VER MAIS KITS 20% OFF Seleção dos mais vendidos VER MAIS"
+      ],
+      "lancamentos_novos": [
+        "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE"
+      ]
     },
     "nike": {
       "nome": "Nike",
