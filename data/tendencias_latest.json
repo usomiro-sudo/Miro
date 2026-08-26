@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-25T09:09:08.256312+00:00",
+  "coletado_em": "2026-08-26T09:24:13.380714+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -87,11 +87,11 @@
           "url": null
         },
         {
-          "texto": "compra rápida + Único Lançamento MOCHILA AERO RIPSTOP E COURO LEGÍTIMO - PRETO R$ 519,65 no pix ou 5x de R$ 109,40 sem juros",
+          "texto": "compra rápida + M G Lançamento BERMUDA DODIA ALGODÃO - MARINHO R$ 244,15 no pix ou 2x de R$ 128,50 sem juros",
           "url": null
         },
         {
-          "texto": "compra rápida + Único Lançamento",
+          "texto": "compra rápida + M G Lançamento",
           "url": null
         },
         {
@@ -99,20 +99,11 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
-        "SALE",
-        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS",
-        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS"
-      ],
-      "promocoes_encerradas": [
-        "30% Off  em todo o site",
-        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
-        "DIA DO CICLISTA 30% Off  em todo o site VER MAIS DIA DO CICLISTA 30% Off  em todo o site VER MAIS",
-        "KITS 20% OFF Seleção dos mais vendidos VER MAIS KITS 20% OFF Seleção dos mais vendidos VER MAIS"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": [
-        "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE"
+        "compra rápida + M G Lançamento BERMUDA DODIA ALGODÃO - MARINHO R$ 244,15 no pix ou 2x de R$ 128,50 sem juros",
+        "compra rápida + M G Lançamento"
       ]
     },
     "nike": {
