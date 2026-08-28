@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-26T09:24:13.380714+00:00",
+  "coletado_em": "2026-08-28T21:31:53.766931+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -56,18 +56,18 @@
       "url": "https://www.vorr.com.br",
       "erro": null,
       "promocoes": [
-        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399 GANHE 15% OFF | CASHBACK",
+        "SALE ATÉ 25% OFF | EM TODO O SITE",
         "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
+        "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 15% OFF | CASHBACK",
-        "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
+        "COMPRAS NO PIX | GANHE 5% OFF",
+        "LANÇAMENTOS SALE ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
         "SALE",
-        "GANHE 12% OFF",
-        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS",
-        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS"
+        "GANHE 12% OFF"
       ],
       "lancamentos": [
         {
-          "texto": "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE",
+          "texto": "LANÇAMENTOS SALE ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
           "url": null
         },
         {
@@ -75,11 +75,11 @@
           "url": "https://www.vorr.com.br/collections/lancamentos-vorr-brasil"
         },
         {
-          "texto": "LANÇAMENTOS Coleção Off-line VER MAIS LANÇAMENTOS Coleção Off-line VER MAIS",
+          "texto": "LANÇAMENTOS Coleção Off-line LANÇAMENTOS Coleção Off-line",
           "url": null
         },
         {
-          "texto": "LANÇAMENTOS Coleção Off-line VER MAIS",
+          "texto": "LANÇAMENTOS Coleção Off-line",
           "url": null
         },
         {
@@ -87,11 +87,11 @@
           "url": null
         },
         {
-          "texto": "compra rápida + M G Lançamento BERMUDA DODIA ALGODÃO - MARINHO R$ 244,15 no pix ou 2x de R$ 128,50 sem juros",
+          "texto": "compra rápida + P M G GG Lançamento CAMISETA PRIME TECH MALHA POLIAMIDA - OFF WHITE R$ 272,65 no pix ou 2x de R$ 143,50 sem juros",
           "url": null
         },
         {
-          "texto": "compra rápida + M G Lançamento",
+          "texto": "compra rápida + P M G GG Lançamento",
           "url": null
         },
         {
@@ -99,11 +99,24 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "SALE ATÉ 25% OFF | EM TODO O SITE",
+        "GANHE 12% OFF | CUPOM: BEMVINDO",
+        "COMPRAS NO PIX | GANHE 5% OFF",
+        "LANÇAMENTOS SALE ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE"
+      ],
+      "promocoes_encerradas": [
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399 GANHE 15% OFF | CASHBACK",
+        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS",
+        "SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS SALE PROGRESSIVA 25% OFF  em todo o site VER MAIS",
+        "SALE ROUPAS CALÇADOS ACESSÓRIOS LANÇAMENTOS KITS BAZAR SOBRE"
+      ],
       "lancamentos_novos": [
-        "compra rápida + M G Lançamento BERMUDA DODIA ALGODÃO - MARINHO R$ 244,15 no pix ou 2x de R$ 128,50 sem juros",
-        "compra rápida + M G Lançamento"
+        "LANÇAMENTOS SALE ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
+        "LANÇAMENTOS Coleção Off-line LANÇAMENTOS Coleção Off-line",
+        "LANÇAMENTOS Coleção Off-line",
+        "compra rápida + P M G GG Lançamento CAMISETA PRIME TECH MALHA POLIAMIDA - OFF WHITE R$ 272,65 no pix ou 2x de R$ 143,50 sem juros",
+        "compra rápida + P M G GG Lançamento"
       ]
     },
     "nike": {
