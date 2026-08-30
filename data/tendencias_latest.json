@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-29T07:03:19.089517+00:00",
+  "coletado_em": "2026-08-30T07:03:13.820384+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -57,7 +57,7 @@
       "erro": null,
       "promocoes": [
         "SALE ATÉ 25% OFF | EM TODO O SITE",
-        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
+        "FRETE GRÁTIS | S/ VALOR MÍNIMO",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 15% OFF | CASHBACK",
         "COMPRAS NO PIX | GANHE 5% OFF",
@@ -99,8 +99,12 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "FRETE GRÁTIS | S/ VALOR MÍNIMO"
+      ],
+      "promocoes_encerradas": [
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399"
+      ],
       "lancamentos_novos": []
     },
     "nike": {
