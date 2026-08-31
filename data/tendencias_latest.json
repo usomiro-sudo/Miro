@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-30T07:03:13.820384+00:00",
+  "coletado_em": "2026-08-31T07:03:18.954826+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -99,12 +99,8 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "FRETE GRÁTIS | S/ VALOR MÍNIMO"
-      ],
-      "promocoes_encerradas": [
-        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": []
     },
     "nike": {
