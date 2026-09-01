@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-31T07:03:18.954826+00:00",
+  "coletado_em": "2026-09-01T07:06:07.951670+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -56,18 +56,18 @@
       "url": "https://www.vorr.com.br",
       "erro": null,
       "promocoes": [
-        "SALE ATÉ 25% OFF | EM TODO O SITE",
-        "FRETE GRÁTIS | S/ VALOR MÍNIMO",
+        "FRETE GRÁTIS | COMPRE ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "FRETE GRÁTIS | COMPRE ACIMA DE R$399",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
-        "GANHE 15% OFF | CASHBACK",
-        "COMPRAS NO PIX | GANHE 5% OFF",
-        "LANÇAMENTOS SALE ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
-        "SALE",
-        "GANHE 12% OFF"
+        "GANHE 12% OFF",
+        "compra rápida + 34/35 36/37 38/39 40/41 42/43 Mais vendido 10% OFF",
+        "Mais vendido 10% OFF",
+        "10% OFF",
+        "Mais vendido 10% OFF SANDÁLIA PAPETE MÖLE UNISSEX - AREIA R$ 162,36 no pix R$ 189,90 ou 1x de R$ 170,91 sem juros"
       ],
       "lancamentos": [
         {
-          "texto": "LANÇAMENTOS SALE ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
+          "texto": "LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
           "url": null
         },
         {
@@ -87,7 +87,7 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG Lançamento CAMISETA PRIME TECH MALHA POLIAMIDA - OFF WHITE R$ 272,65 no pix ou 2x de R$ 143,50 sem juros",
+          "texto": "compra rápida + P M G GG Lançamento CAMISETA ICETECH UV 50+ 100% MALHA POLIAMIDA - PRETO R$ 139,65 no pix ou 1x de R$ 147,00 sem juros",
           "url": null
         },
         {
@@ -99,9 +99,26 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
-      "lancamentos_novos": []
+      "promocoes_novas": [
+        "FRETE GRÁTIS | COMPRE ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "FRETE GRÁTIS | COMPRE ACIMA DE R$399",
+        "compra rápida + 34/35 36/37 38/39 40/41 42/43 Mais vendido 10% OFF",
+        "Mais vendido 10% OFF",
+        "10% OFF",
+        "Mais vendido 10% OFF SANDÁLIA PAPETE MÖLE UNISSEX - AREIA R$ 162,36 no pix R$ 189,90 ou 1x de R$ 170,91 sem juros"
+      ],
+      "promocoes_encerradas": [
+        "COMPRAS NO PIX | GANHE 5% OFF",
+        "FRETE GRÁTIS | S/ VALOR MÍNIMO",
+        "GANHE 15% OFF | CASHBACK",
+        "LANÇAMENTOS SALE ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
+        "SALE",
+        "SALE ATÉ 25% OFF | EM TODO O SITE"
+      ],
+      "lancamentos_novos": [
+        "LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
+        "compra rápida + P M G GG Lançamento CAMISETA ICETECH UV 50+ 100% MALHA POLIAMIDA - PRETO R$ 139,65 no pix ou 1x de R$ 147,00 sem juros"
+      ]
     },
     "nike": {
       "nome": "Nike",
