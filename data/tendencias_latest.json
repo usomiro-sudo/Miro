@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-01T07:06:07.951670+00:00",
+  "coletado_em": "2026-09-02T07:06:02.510026+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -67,7 +67,7 @@
       ],
       "lancamentos": [
         {
-          "texto": "LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
+          "texto": "LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS OUTLET SOBRE",
           "url": null
         },
         {
@@ -87,11 +87,11 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG Lançamento CAMISETA ICETECH UV 50+ 100% MALHA POLIAMIDA - PRETO R$ 139,65 no pix ou 1x de R$ 147,00 sem juros",
+          "texto": "compra rápida + P M G GG XG Lançamento POLO OFF-LINE ALGODÃO - AZUL R$ 282,15 no pix ou 2x de R$ 148,50 sem juros",
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG Lançamento",
+          "texto": "compra rápida + P M G GG XG Lançamento",
           "url": null
         },
         {
@@ -99,25 +99,12 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "FRETE GRÁTIS | COMPRE ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "FRETE GRÁTIS | COMPRE ACIMA DE R$399",
-        "compra rápida + 34/35 36/37 38/39 40/41 42/43 Mais vendido 10% OFF",
-        "Mais vendido 10% OFF",
-        "10% OFF",
-        "Mais vendido 10% OFF SANDÁLIA PAPETE MÖLE UNISSEX - AREIA R$ 162,36 no pix R$ 189,90 ou 1x de R$ 170,91 sem juros"
-      ],
-      "promocoes_encerradas": [
-        "COMPRAS NO PIX | GANHE 5% OFF",
-        "FRETE GRÁTIS | S/ VALOR MÍNIMO",
-        "GANHE 15% OFF | CASHBACK",
-        "LANÇAMENTOS SALE ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
-        "SALE",
-        "SALE ATÉ 25% OFF | EM TODO O SITE"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": [
-        "LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS BAZAR SOBRE",
-        "compra rápida + P M G GG Lançamento CAMISETA ICETECH UV 50+ 100% MALHA POLIAMIDA - PRETO R$ 139,65 no pix ou 1x de R$ 147,00 sem juros"
+        "LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS OUTLET SOBRE",
+        "compra rápida + P M G GG XG Lançamento POLO OFF-LINE ALGODÃO - AZUL R$ 282,15 no pix ou 2x de R$ 148,50 sem juros",
+        "compra rápida + P M G GG XG Lançamento"
       ]
     },
     "nike": {
