@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-03T07:06:43.349261+00:00",
+  "coletado_em": "2026-09-04T07:06:13.345748+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -99,26 +99,9 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "MÊS DO CLIENTE Até 50% OFF em todo o site MÊS DO CLIENTE Até 50% OFF em todo o site",
-        "MÊS DO CLIENTE Até 50% OFF em todo o site",
-        "Até 50% OFF em todo o site",
-        "LANÇAMENTOS Seleção com 7% OFF LANÇAMENTOS Seleção com 7% OFF"
-      ],
-      "promocoes_encerradas": [
-        "10% OFF",
-        "Mais vendido 10% OFF",
-        "Mais vendido 10% OFF SANDÁLIA PAPETE MÖLE UNISSEX - AREIA R$ 162,36 no pix R$ 189,90 ou 1x de R$ 170,91 sem juros",
-        "compra rápida + 34/35 36/37 38/39 40/41 42/43 Mais vendido 10% OFF"
-      ],
-      "lancamentos_novos": [
-        "MÊS DO CLIENTE LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS SOBRE",
-        "LANÇAMENTOS Seleção com 7% OFF LANÇAMENTOS Seleção com 7% OFF",
-        "LANÇAMENTOS Seleção com 7% OFF",
-        "compra rápida + P M G GG XG Lançamento 7% OFF 7% OFF POLO OFF-LINE ALGODÃO - AZUL R$ 262,40 no pix R$ 297,00 ou 2x de R$ 138,10 sem juros",
-        "compra rápida + P M G GG XG Lançamento 7% OFF",
-        "Lançamento 7% OFF"
-      ]
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
+      "lancamentos_novos": []
     },
     "nike": {
       "nome": "Nike",
