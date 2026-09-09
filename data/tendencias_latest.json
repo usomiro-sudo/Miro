@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-08T07:07:34.300391+00:00",
+  "coletado_em": "2026-09-09T07:07:28.001185+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -56,8 +56,8 @@
       "url": "https://www.vorr.com.br",
       "erro": null,
       "promocoes": [
-        "FRETE GRÁTIS | COMPRE ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "FRETE GRÁTIS | COMPRE ACIMA DE R$399",
+        "FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "FRETE GRÁTIS | VÁLIDO EM TODO SITE",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 12% OFF",
         "MÊS DO CLIENTE Até 50% OFF em todo o site MÊS DO CLIENTE Até 50% OFF em todo o site",
@@ -99,8 +99,14 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "FRETE GRÁTIS | VÁLIDO EM TODO SITE"
+      ],
+      "promocoes_encerradas": [
+        "FRETE GRÁTIS | COMPRE ACIMA DE R$399",
+        "FRETE GRÁTIS | COMPRE ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH"
+      ],
       "lancamentos_novos": []
     },
     "nike": {
