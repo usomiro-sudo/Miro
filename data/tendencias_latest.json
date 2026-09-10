@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-09T07:07:28.001185+00:00",
+  "coletado_em": "2026-09-10T11:59:37.240320+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -60,18 +60,14 @@
         "FRETE GRÁTIS | VÁLIDO EM TODO SITE",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 12% OFF",
-        "MÊS DO CLIENTE Até 50% OFF em todo o site MÊS DO CLIENTE Até 50% OFF em todo o site",
-        "MÊS DO CLIENTE Até 50% OFF em todo o site",
-        "Até 50% OFF em todo o site",
-        "compra rápida + P M G GG XG Lançamento 7% OFF 7% OFF POLO OFF-LINE ALGODÃO - AZUL R$ 262,40 no pix R$ 297,00 ou 2x de R$ 138,10 sem juros"
+        "MÊS DO CLIENTE Até 50% OFF + Frete Grátis + Brinde MÊS DO CLIENTE Até 50% OFF + Frete Grátis + Brinde",
+        "MÊS DO CLIENTE Até 50% OFF + Frete Grátis + Brinde",
+        "Até 50% OFF + Frete Grátis + Brinde",
+        "KITS 20% OFF Seleção de mais vendidos com oferta KITS 20% OFF Seleção de mais vendidos com oferta"
       ],
       "lancamentos": [
         {
-          "texto": "LANÇAMENTOS Nova coleção Off-line LANÇAMENTOS Nova coleção Off-line",
-          "url": null
-        },
-        {
-          "texto": "LANÇAMENTOS Nova coleção Off-line",
+          "texto": "LANÇAMENTOS Confira essas duas peças. BERMUDA D'ÁGUA POLO OFFLINE",
           "url": null
         },
         {
@@ -79,15 +75,11 @@
           "url": null
         },
         {
-          "texto": "Nova coleção Off-line",
-          "url": null
-        },
-        {
           "texto": "Últimos lançamentos...",
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG XG Lançamento 7% OFF 7% OFF POLO OFF-LINE ALGODÃO - AZUL R$ 262,40 no pix R$ 297,00 ou 2x de R$ 138,10 sem juros",
+          "texto": "compra rápida + P M G GG XG Lançamento 7% OFF 7% OFF POLO OFFLINE ALGODÃO - AZUL R$ 262,40 no pix R$ 297,00 ou 2x de R$ 138,10 sem juros",
           "url": null
         },
         {
@@ -97,17 +89,34 @@
         {
           "texto": "Lançamento 7% OFF",
           "url": null
+        },
+        {
+          "texto": "Lançamento",
+          "url": null
+        },
+        {
+          "texto": "compra rápida + M G GG Lançamento 7% OFF",
+          "url": null
         }
       ],
       "promocoes_novas": [
-        "FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "FRETE GRÁTIS | VÁLIDO EM TODO SITE"
+        "MÊS DO CLIENTE Até 50% OFF + Frete Grátis + Brinde MÊS DO CLIENTE Até 50% OFF + Frete Grátis + Brinde",
+        "MÊS DO CLIENTE Até 50% OFF + Frete Grátis + Brinde",
+        "Até 50% OFF + Frete Grátis + Brinde",
+        "KITS 20% OFF Seleção de mais vendidos com oferta KITS 20% OFF Seleção de mais vendidos com oferta"
       ],
       "promocoes_encerradas": [
-        "FRETE GRÁTIS | COMPRE ACIMA DE R$399",
-        "FRETE GRÁTIS | COMPRE ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH"
+        "Até 50% OFF em todo o site",
+        "MÊS DO CLIENTE Até 50% OFF em todo o site",
+        "MÊS DO CLIENTE Até 50% OFF em todo o site MÊS DO CLIENTE Até 50% OFF em todo o site",
+        "compra rápida + P M G GG XG Lançamento 7% OFF 7% OFF POLO OFF-LINE ALGODÃO - AZUL R$ 262,40 no pix R$ 297,00 ou 2x de R$ 138,10 sem juros"
       ],
-      "lancamentos_novos": []
+      "lancamentos_novos": [
+        "LANÇAMENTOS Confira essas duas peças. BERMUDA D'ÁGUA POLO OFFLINE",
+        "compra rápida + P M G GG XG Lançamento 7% OFF 7% OFF POLO OFFLINE ALGODÃO - AZUL R$ 262,40 no pix R$ 297,00 ou 2x de R$ 138,10 sem juros",
+        "Lançamento",
+        "compra rápida + M G GG Lançamento 7% OFF"
+      ]
     },
     "nike": {
       "nome": "Nike",
