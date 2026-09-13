@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-12T11:24:49.380217+00:00",
+  "coletado_em": "2026-09-13T12:28:45.674290+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -28,27 +28,18 @@
     "woom": {
       "nome": "Woom",
       "url": "https://www.woom.com.br",
-      "erro": null,
-      "promocoes": [
-        "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
+      "erro": "falha ao acessar a home page",
+      "promocoes": [],
+      "lancamentos": [],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
-        "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
+        "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
         "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
+        "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
         "com desconto",
         "desconto"
       ],
-      "lancamentos": [
-        {
-          "texto": "Lançamento 01/12",
-          "url": null
-        },
-        {
-          "texto": "Lançamento",
-          "url": null
-        }
-      ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
       "lancamentos_novos": []
     },
     "vorr": {
@@ -99,24 +90,9 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "compra rápida + M GG XG Lançamento 7% OFF",
-        "Lançamento 7% OFF",
-        "7% OFF",
-        "7% OFF CAMISETA ESSENCIAL ALGODÃO PIMA ZERØ - BRANCO R$ 227,06 no pix R$ 257,00 ou 2x de R$ 119,50 sem juros"
-      ],
-      "promocoes_encerradas": [
-        "Até 50% OFF + Frete Grátis + Brinde",
-        "KITS 20% OFF Seleção de mais vendidos com oferta KITS 20% OFF Seleção de mais vendidos com oferta",
-        "MÊS DO CLIENTE Até 50% OFF + Frete Grátis + Brinde",
-        "MÊS DO CLIENTE Até 50% OFF + Frete Grátis + Brinde MÊS DO CLIENTE Até 50% OFF + Frete Grátis + Brinde"
-      ],
-      "lancamentos_novos": [
-        "compra rápida + 39 40 41 42 Lançamento TÊNIS TERRA COURO E SOLADO VIBRAM - PRETO R$ 757,15 no pix ou 6x de R$ 132,83 sem juros",
-        "compra rápida + 39 40 41 42 Lançamento",
-        "compra rápida + P M G GG XG Lançamento BERMUDA DODIA ALGODÃO - PRETO R$ 244,15 no pix ou 2x de R$ 128,50 sem juros",
-        "compra rápida + P M G GG XG Lançamento"
-      ]
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
+      "lancamentos_novos": []
     },
     "nike": {
       "nome": "Nike",
