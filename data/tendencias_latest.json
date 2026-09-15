@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-14T13:32:39.937981+00:00",
+  "coletado_em": "2026-09-15T12:23:44.349581+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -47,19 +47,9 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
-        "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
-        "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
-        "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
-        "com desconto",
-        "desconto"
-      ],
+      "promocoes_novas": [],
       "promocoes_encerradas": [],
-      "lancamentos_novos": [
-        "Lançamento 01/12",
-        "Lançamento"
-      ]
+      "lancamentos_novos": []
     },
     "vorr": {
       "nome": "Vorr",
@@ -81,11 +71,11 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG Lançamento BERMUDA D'ÁGUA PIPA - CHUMBO R$ 329,65 no pix ou 3x de R$ 115,66 sem juros",
+          "texto": "compra rápida + P M G Lançamento CAMISETA ORLA ALGODÃO - AREIA R$ 272,65 no pix ou 2x de R$ 143,50 sem juros",
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG Lançamento",
+          "texto": "compra rápida + P M G Lançamento",
           "url": null
         },
         {
@@ -101,31 +91,20 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG XG Lançamento BERMUDA DODIA ALGODÃO - PRETO R$ 244,15 no pix ou 2x de R$ 128,50 sem juros",
+          "texto": "compra rápida + P M G GG Lançamento BERMUDA ORIGEM LINHO - PALHA R$ 424,65 no pix ou 4x de R$ 111,75 sem juros",
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG XG Lançamento",
+          "texto": "compra rápida + P M G GG Lançamento",
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "MÊS DO CLIENTE | ATÉ 30% OFF FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "MÊS DO CLIENTE | ATÉ 30% OFF",
-        "PROGRESSIVA MÊS DO CLIENTE Aproveite até 30% OFF COMPRAR AGORA PROGRESSIVA MÊS DO CLIENTE Aproveite até 30% OFF COMPRAR AGORA",
-        "PROGRESSIVA MÊS DO CLIENTE Aproveite até 30% OFF COMPRAR AGORA",
-        "Aproveite até 30% OFF"
-      ],
-      "promocoes_encerradas": [
-        "7% OFF",
-        "7% OFF CAMISETA ESSENCIAL ALGODÃO PIMA ZERØ - BRANCO R$ 227,06 no pix R$ 257,00 ou 2x de R$ 119,50 sem juros",
-        "FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "Lançamento 7% OFF",
-        "compra rápida + M GG XG Lançamento 7% OFF"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": [
-        "compra rápida + P M G GG Lançamento BERMUDA D'ÁGUA PIPA - CHUMBO R$ 329,65 no pix ou 3x de R$ 115,66 sem juros",
-        "compra rápida + P M G GG Lançamento"
+        "compra rápida + P M G Lançamento CAMISETA ORLA ALGODÃO - AREIA R$ 272,65 no pix ou 2x de R$ 143,50 sem juros",
+        "compra rápida + P M G Lançamento",
+        "compra rápida + P M G GG Lançamento BERMUDA ORIGEM LINHO - PALHA R$ 424,65 no pix ou 4x de R$ 111,75 sem juros"
       ]
     },
     "nike": {
