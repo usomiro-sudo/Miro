@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-15T12:23:44.349581+00:00",
+  "coletado_em": "2026-09-16T12:20:49.743522+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -56,14 +56,14 @@
       "url": "https://www.vorr.com.br",
       "erro": null,
       "promocoes": [
-        "MÊS DO CLIENTE | ATÉ 30% OFF FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "MÊS DO CLIENTE | ATÉ 30% OFF",
+        "MÊS DO CLIENTE | R$100 OFF NO SITE FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
         "FRETE GRÁTIS | VÁLIDO EM TODO SITE",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 12% OFF",
-        "PROGRESSIVA MÊS DO CLIENTE Aproveite até 30% OFF COMPRAR AGORA PROGRESSIVA MÊS DO CLIENTE Aproveite até 30% OFF COMPRAR AGORA",
-        "PROGRESSIVA MÊS DO CLIENTE Aproveite até 30% OFF COMPRAR AGORA",
-        "Aproveite até 30% OFF"
+        "MÊS DO CLIENTE R$100 OFF + Frete Grátis + Brinde COMPRAR AGORA MÊS DO CLIENTE R$100 OFF + Frete Grátis + Brinde COMPRAR AGORA",
+        "MÊS DO CLIENTE R$100 OFF + Frete Grátis + Brinde COMPRAR AGORA",
+        "R$100 OFF + Frete Grátis + Brinde",
+        "KITS: até 20% OFF Seleção dos mais vendidos COMPRAR AGORA KITS: até 20% OFF Seleção dos mais vendidos COMPRAR AGORA"
       ],
       "lancamentos": [
         {
@@ -83,11 +83,11 @@
           "url": null
         },
         {
-          "texto": "compra rápida + 39 40 41 42 Lançamento TÊNIS TERRA COURO E SOLADO VIBRAM - PRETO R$ 757,15 no pix ou 6x de R$ 132,83 sem juros",
+          "texto": "compra rápida + 39 40 41 Lançamento TÊNIS TERRA COURO E SOLADO VIBRAM - PRETO R$ 757,15 no pix ou 6x de R$ 132,83 sem juros",
           "url": null
         },
         {
-          "texto": "compra rápida + 39 40 41 42 Lançamento",
+          "texto": "compra rápida + 39 40 41 Lançamento",
           "url": null
         },
         {
@@ -99,12 +99,23 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "MÊS DO CLIENTE | R$100 OFF NO SITE FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "MÊS DO CLIENTE R$100 OFF + Frete Grátis + Brinde COMPRAR AGORA MÊS DO CLIENTE R$100 OFF + Frete Grátis + Brinde COMPRAR AGORA",
+        "MÊS DO CLIENTE R$100 OFF + Frete Grátis + Brinde COMPRAR AGORA",
+        "R$100 OFF + Frete Grátis + Brinde",
+        "KITS: até 20% OFF Seleção dos mais vendidos COMPRAR AGORA KITS: até 20% OFF Seleção dos mais vendidos COMPRAR AGORA"
+      ],
+      "promocoes_encerradas": [
+        "Aproveite até 30% OFF",
+        "MÊS DO CLIENTE | ATÉ 30% OFF",
+        "MÊS DO CLIENTE | ATÉ 30% OFF FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "PROGRESSIVA MÊS DO CLIENTE Aproveite até 30% OFF COMPRAR AGORA",
+        "PROGRESSIVA MÊS DO CLIENTE Aproveite até 30% OFF COMPRAR AGORA PROGRESSIVA MÊS DO CLIENTE Aproveite até 30% OFF COMPRAR AGORA"
+      ],
       "lancamentos_novos": [
-        "compra rápida + P M G Lançamento CAMISETA ORLA ALGODÃO - AREIA R$ 272,65 no pix ou 2x de R$ 143,50 sem juros",
-        "compra rápida + P M G Lançamento",
-        "compra rápida + P M G GG Lançamento BERMUDA ORIGEM LINHO - PALHA R$ 424,65 no pix ou 4x de R$ 111,75 sem juros"
+        "compra rápida + 39 40 41 Lançamento TÊNIS TERRA COURO E SOLADO VIBRAM - PRETO R$ 757,15 no pix ou 6x de R$ 132,83 sem juros",
+        "compra rápida + 39 40 41 Lançamento"
       ]
     },
     "nike": {
