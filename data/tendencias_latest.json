@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-20T11:56:41.624390+00:00",
+  "coletado_em": "2026-09-21T13:31:23.334778+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -28,19 +28,38 @@
     "woom": {
       "nome": "Woom",
       "url": "https://www.woom.com.br",
-      "erro": "falha ao acessar a home page",
-      "promocoes": [],
-      "lancamentos": [],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [
-        "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
+      "erro": null,
+      "promocoes": [
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
-        "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
+        "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
         "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
+        "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
         "com desconto",
         "desconto"
       ],
-      "lancamentos_novos": []
+      "lancamentos": [
+        {
+          "texto": "Lançamento 01/12",
+          "url": null
+        },
+        {
+          "texto": "Lançamento",
+          "url": null
+        }
+      ],
+      "promocoes_novas": [
+        "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
+        "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
+        "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
+        "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
+        "com desconto",
+        "desconto"
+      ],
+      "promocoes_encerradas": [],
+      "lancamentos_novos": [
+        "Lançamento 01/12",
+        "Lançamento"
+      ]
     },
     "vorr": {
       "nome": "Vorr",
@@ -82,17 +101,20 @@
           "url": null
         },
         {
-          "texto": "compra rápida + 36 37 38 39 40 Lançamento TÊNIS PULSE UNISSEX COURO - CHUMBO R$ 538,65 no pix ou 5x de R$ 113,40 sem juros",
+          "texto": "compra rápida + 36 37 38 39 Lançamento TÊNIS PULSE UNISSEX COURO - CHUMBO R$ 538,65 no pix ou 5x de R$ 113,40 sem juros",
           "url": null
         },
         {
-          "texto": "compra rápida + 36 37 38 39 40 Lançamento",
+          "texto": "compra rápida + 36 37 38 39 Lançamento",
           "url": null
         }
       ],
       "promocoes_novas": [],
       "promocoes_encerradas": [],
-      "lancamentos_novos": []
+      "lancamentos_novos": [
+        "compra rápida + 36 37 38 39 Lançamento TÊNIS PULSE UNISSEX COURO - CHUMBO R$ 538,65 no pix ou 5x de R$ 113,40 sem juros",
+        "compra rápida + 36 37 38 39 Lançamento"
+      ]
     },
     "nike": {
       "nome": "Nike",
