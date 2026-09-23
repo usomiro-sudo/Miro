@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-22T12:15:53.369409+00:00",
+  "coletado_em": "2026-09-23T12:28:47.945599+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -60,61 +60,50 @@
         "FRETE GRÁTIS | VÁLIDO EM TODO SITE",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 12% OFF",
-        "FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS",
-        "FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS",
-        "FRETE GRÁTIS + BRINDE",
-        "SELEÇÃO MAIS VENDIDOS KITS: até 20% OFF VER MAIS SELEÇÃO MAIS VENDIDOS KITS: até 20% OFF VER MAIS"
+        "compra rápida + 38 20% OFF",
+        "20% OFF",
+        "20% OFF VESTIDO MOCHA VISCOSE ESTRUTURADA - MARROM R$ 582,92 no pix CLUBE. R$ 503,15 R$ 767,00 ou 6x de R$ 102,26 sem juros",
+        "compra rápida + 36 40 20% OFF"
       ],
       "lancamentos": [
-        {
-          "texto": "LANÇAMENTO COLEÇÃO OFFLINE VER MAIS LANÇAMENTO COLEÇÃO OFFLINE VER MAIS",
-          "url": null
-        },
-        {
-          "texto": "LANÇAMENTO COLEÇÃO OFFLINE VER MAIS",
-          "url": null
-        },
-        {
-          "texto": "LANÇAMENTO",
-          "url": null
-        },
         {
           "texto": "Últimos lançamentos...",
           "url": null
         },
         {
-          "texto": "compra rápida + Único Lançamento MOCHILA AERO RIPSTOP E COURO LEGÍTIMO - PRETO R$ 472,15 no pix ou 4x de R$ 124,25 sem juros",
+          "texto": "Lançamentos: R$100 OFF no site",
           "url": null
         },
         {
-          "texto": "compra rápida + Único Lançamento",
+          "texto": "NICE COROA OS NOVOS REIS DO 70.3",
           "url": null
         },
         {
-          "texto": "Lançamento",
+          "texto": "MÊS DO CLIENTE CLUBE. DE BENEFÍCIOS LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS ATÉ 20% OFF ÚLTIMAS PEÇAS ATÉ 50% OFF SOBRE A VÖRR",
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG Lançamento BERMUDA D'ÁGUA PIPA TECIDO TECNOLÓGICO - CHUMBO R$ 329,65 no pix ou 3x de R$ 115,66 sem juros",
-          "url": null
+          "texto": "LANÇAMENTOS",
+          "url": "https://www.vorr.com.br/collections/lancamentos-vorr-brasil"
         }
       ],
       "promocoes_novas": [
-        "FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS",
-        "FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS",
-        "FRETE GRÁTIS + BRINDE",
-        "SELEÇÃO MAIS VENDIDOS KITS: até 20% OFF VER MAIS SELEÇÃO MAIS VENDIDOS KITS: até 20% OFF VER MAIS"
+        "compra rápida + 38 20% OFF",
+        "20% OFF",
+        "20% OFF VESTIDO MOCHA VISCOSE ESTRUTURADA - MARROM R$ 582,92 no pix CLUBE. R$ 503,15 R$ 767,00 ou 6x de R$ 102,26 sem juros",
+        "compra rápida + 36 40 20% OFF"
       ],
       "promocoes_encerradas": [
-        "KITS: até 20% OFF Seleção dos mais vendidos COMPRAR AGORA KITS: até 20% OFF Seleção dos mais vendidos COMPRAR AGORA",
-        "MÊS DO CLIENTE R$100 OFF + Frete Grátis + Brinde COMPRAR AGORA",
-        "MÊS DO CLIENTE R$100 OFF + Frete Grátis + Brinde COMPRAR AGORA MÊS DO CLIENTE R$100 OFF + Frete Grátis + Brinde COMPRAR AGORA",
-        "R$100 OFF + Frete Grátis + Brinde"
+        "FRETE GRÁTIS + BRINDE",
+        "FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS",
+        "FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS",
+        "SELEÇÃO MAIS VENDIDOS KITS: até 20% OFF VER MAIS SELEÇÃO MAIS VENDIDOS KITS: até 20% OFF VER MAIS"
       ],
       "lancamentos_novos": [
-        "LANÇAMENTO COLEÇÃO OFFLINE VER MAIS LANÇAMENTO COLEÇÃO OFFLINE VER MAIS",
-        "LANÇAMENTO COLEÇÃO OFFLINE VER MAIS",
-        "LANÇAMENTO"
+        "Lançamentos: R$100 OFF no site",
+        "NICE COROA OS NOVOS REIS DO 70.3",
+        "MÊS DO CLIENTE CLUBE. DE BENEFÍCIOS LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS ATÉ 20% OFF ÚLTIMAS PEÇAS ATÉ 50% OFF SOBRE A VÖRR",
+        "LANÇAMENTOS"
       ]
     },
     "nike": {
