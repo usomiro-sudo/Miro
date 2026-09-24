@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-23T12:28:47.945599+00:00",
+  "coletado_em": "2026-09-24T12:27:47.794466+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -56,14 +56,14 @@
       "url": "https://www.vorr.com.br",
       "erro": null,
       "promocoes": [
-        "MÊS DO CLIENTE | R$100 OFF NO SITE FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "FRETE GRÁTIS | VÁLIDO EM TODO SITE",
+        "MÊS DO CLIENTE | R$100 OFF NO SITE FRETE GRÁTIS | COMPRAS ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 12% OFF",
-        "compra rápida + 38 20% OFF",
-        "20% OFF",
-        "20% OFF VESTIDO MOCHA VISCOSE ESTRUTURADA - MARROM R$ 582,92 no pix CLUBE. R$ 503,15 R$ 767,00 ou 6x de R$ 102,26 sem juros",
-        "compra rápida + 36 40 20% OFF"
+        "compra rápida + 34 50% OFF 50% OFF SHORT CALIANDRA ALGODÃO - PRETO R$ 183,83 no pix R$ 387,00 ou 1x de R$ 193,50 sem juros",
+        "compra rápida + 34 50% OFF",
+        "50% OFF",
+        "50% OFF SHORT CALIANDRA ALGODÃO - PRETO R$ 183,83 no pix R$ 387,00 ou 1x de R$ 193,50 sem juros"
       ],
       "lancamentos": [
         {
@@ -88,23 +88,22 @@
         }
       ],
       "promocoes_novas": [
-        "compra rápida + 38 20% OFF",
-        "20% OFF",
-        "20% OFF VESTIDO MOCHA VISCOSE ESTRUTURADA - MARROM R$ 582,92 no pix CLUBE. R$ 503,15 R$ 767,00 ou 6x de R$ 102,26 sem juros",
-        "compra rápida + 36 40 20% OFF"
+        "MÊS DO CLIENTE | R$100 OFF NO SITE FRETE GRÁTIS | COMPRAS ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
+        "compra rápida + 34 50% OFF 50% OFF SHORT CALIANDRA ALGODÃO - PRETO R$ 183,83 no pix R$ 387,00 ou 1x de R$ 193,50 sem juros",
+        "compra rápida + 34 50% OFF",
+        "50% OFF",
+        "50% OFF SHORT CALIANDRA ALGODÃO - PRETO R$ 183,83 no pix R$ 387,00 ou 1x de R$ 193,50 sem juros"
       ],
       "promocoes_encerradas": [
-        "FRETE GRÁTIS + BRINDE",
-        "FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS",
-        "FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS FRETE GRÁTIS + BRINDE MÊS DO CLIENTE VER MAIS",
-        "SELEÇÃO MAIS VENDIDOS KITS: até 20% OFF VER MAIS SELEÇÃO MAIS VENDIDOS KITS: até 20% OFF VER MAIS"
+        "20% OFF",
+        "20% OFF VESTIDO MOCHA VISCOSE ESTRUTURADA - MARROM R$ 582,92 no pix CLUBE. R$ 503,15 R$ 767,00 ou 6x de R$ 102,26 sem juros",
+        "FRETE GRÁTIS | VÁLIDO EM TODO SITE",
+        "MÊS DO CLIENTE | R$100 OFF NO SITE FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "compra rápida + 36 40 20% OFF",
+        "compra rápida + 38 20% OFF"
       ],
-      "lancamentos_novos": [
-        "Lançamentos: R$100 OFF no site",
-        "NICE COROA OS NOVOS REIS DO 70.3",
-        "MÊS DO CLIENTE CLUBE. DE BENEFÍCIOS LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS ATÉ 20% OFF ÚLTIMAS PEÇAS ATÉ 50% OFF SOBRE A VÖRR",
-        "LANÇAMENTOS"
-      ]
+      "lancamentos_novos": []
     },
     "nike": {
       "nome": "Nike",
