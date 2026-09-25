@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-24T12:27:47.794466+00:00",
+  "coletado_em": "2026-09-25T12:29:17.537020+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -71,39 +71,45 @@
           "url": null
         },
         {
-          "texto": "Lançamentos: R$100 OFF no site",
+          "texto": "compra rápida + P M G Lançamento",
           "url": null
         },
         {
-          "texto": "NICE COROA OS NOVOS REIS DO 70.3",
+          "texto": "Lançamento",
           "url": null
         },
         {
-          "texto": "MÊS DO CLIENTE CLUBE. DE BENEFÍCIOS LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS KITS ATÉ 20% OFF ÚLTIMAS PEÇAS ATÉ 50% OFF SOBRE A VÖRR",
+          "texto": "compra rápida + P M G GG Lançamento CALÇA ORIGEM LINHO - PALHA R$ 500,65 no pix ou R$ 432,14 CLUBE. ou 5x de R$ 105,40 sem juros",
           "url": null
         },
         {
-          "texto": "LANÇAMENTOS",
-          "url": "https://www.vorr.com.br/collections/lancamentos-vorr-brasil"
+          "texto": "compra rápida + P M G GG Lançamento",
+          "url": null
+        },
+        {
+          "texto": "compra rápida + 36 37 38 40 Lançamento TÊNIS PULSE UNISSEX COURO - CHUMBO R$ 538,65 no pix ou R$ 464,94 CLUBE. ou 5x de R$ 113,40 sem juros",
+          "url": null
+        },
+        {
+          "texto": "compra rápida + 36 37 38 40 Lançamento",
+          "url": null
+        },
+        {
+          "texto": "compra rápida + P M G GG Lançamento CAMISETA TRAÇOS 100% ALGODÃO - MARROM R$ 244,15 no pix ou R$ 210,74 CLUBE. ou 2x de R$ 128,50 sem juros",
+          "url": null
         }
       ],
-      "promocoes_novas": [
-        "MÊS DO CLIENTE | R$100 OFF NO SITE FRETE GRÁTIS | COMPRAS ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
-        "compra rápida + 34 50% OFF 50% OFF SHORT CALIANDRA ALGODÃO - PRETO R$ 183,83 no pix R$ 387,00 ou 1x de R$ 193,50 sem juros",
-        "compra rápida + 34 50% OFF",
-        "50% OFF",
-        "50% OFF SHORT CALIANDRA ALGODÃO - PRETO R$ 183,83 no pix R$ 387,00 ou 1x de R$ 193,50 sem juros"
-      ],
-      "promocoes_encerradas": [
-        "20% OFF",
-        "20% OFF VESTIDO MOCHA VISCOSE ESTRUTURADA - MARROM R$ 582,92 no pix CLUBE. R$ 503,15 R$ 767,00 ou 6x de R$ 102,26 sem juros",
-        "FRETE GRÁTIS | VÁLIDO EM TODO SITE",
-        "MÊS DO CLIENTE | R$100 OFF NO SITE FRETE GRÁTIS | VÁLIDO EM TODO SITE GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "compra rápida + 36 40 20% OFF",
-        "compra rápida + 38 20% OFF"
-      ],
-      "lancamentos_novos": []
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
+      "lancamentos_novos": [
+        "compra rápida + P M G Lançamento",
+        "Lançamento",
+        "compra rápida + P M G GG Lançamento CALÇA ORIGEM LINHO - PALHA R$ 500,65 no pix ou R$ 432,14 CLUBE. ou 5x de R$ 105,40 sem juros",
+        "compra rápida + P M G GG Lançamento",
+        "compra rápida + 36 37 38 40 Lançamento TÊNIS PULSE UNISSEX COURO - CHUMBO R$ 538,65 no pix ou R$ 464,94 CLUBE. ou 5x de R$ 113,40 sem juros",
+        "compra rápida + 36 37 38 40 Lançamento",
+        "compra rápida + P M G GG Lançamento CAMISETA TRAÇOS 100% ALGODÃO - MARROM R$ 244,15 no pix ou R$ 210,74 CLUBE. ou 2x de R$ 128,50 sem juros"
+      ]
     },
     "nike": {
       "nome": "Nike",
