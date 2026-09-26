@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-25T12:29:17.537020+00:00",
+  "coletado_em": "2026-09-26T11:59:45.326031+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -32,8 +32,8 @@
       "promocoes": [
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
-        "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
-        "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
+        "R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
+        "R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
         "com desconto",
         "desconto"
       ],
@@ -47,8 +47,14 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
+        "R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard"
+      ],
+      "promocoes_encerradas": [
+        "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
+        "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard"
+      ],
       "lancamentos_novos": []
     },
     "vorr": {
@@ -101,15 +107,7 @@
       ],
       "promocoes_novas": [],
       "promocoes_encerradas": [],
-      "lancamentos_novos": [
-        "compra rápida + P M G Lançamento",
-        "Lançamento",
-        "compra rápida + P M G GG Lançamento CALÇA ORIGEM LINHO - PALHA R$ 500,65 no pix ou R$ 432,14 CLUBE. ou 5x de R$ 105,40 sem juros",
-        "compra rápida + P M G GG Lançamento",
-        "compra rápida + 36 37 38 40 Lançamento TÊNIS PULSE UNISSEX COURO - CHUMBO R$ 538,65 no pix ou R$ 464,94 CLUBE. ou 5x de R$ 113,40 sem juros",
-        "compra rápida + 36 37 38 40 Lançamento",
-        "compra rápida + P M G GG Lançamento CAMISETA TRAÇOS 100% ALGODÃO - MARROM R$ 244,15 no pix ou R$ 210,74 CLUBE. ou 2x de R$ 128,50 sem juros"
-      ]
+      "lancamentos_novos": []
     },
     "nike": {
       "nome": "Nike",
