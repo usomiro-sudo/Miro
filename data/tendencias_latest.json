@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-26T11:59:45.326031+00:00",
+  "coletado_em": "2026-09-27T12:37:26.401253+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -47,14 +47,8 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
-        "R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard"
-      ],
-      "promocoes_encerradas": [
-        "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard",
-        "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão MasterCard"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": []
     },
     "vorr": {
