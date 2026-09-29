@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-28T14:49:07.420181+00:00",
+  "coletado_em": "2026-09-29T13:38:15.337732+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -71,7 +71,7 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G Lançamento",
+          "texto": "compra rápida + U Lançamento",
           "url": null
         },
         {
@@ -79,7 +79,11 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG Lançamento CALÇA ORIGEM LINHO - PALHA R$ 500,65 no pix ou R$ 432,14 CLUBE. ou 5x de R$ 105,40 sem juros",
+          "texto": "compra rápida + P M G Lançamento",
+          "url": null
+        },
+        {
+          "texto": "compra rápida + P M G GG Lançamento CALÇA ORIGEM LINHO - PALHA R$ 500,65 no pix ou R$ 410,53 CLUBE. ou 5x de R$ 105,40 sem juros",
           "url": null
         },
         {
@@ -91,19 +95,16 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG Lançamento CAMISETA TRAÇOS 100% ALGODÃO - MARROM R$ 244,15 no pix ou R$ 210,74 CLUBE. ou 2x de R$ 128,50 sem juros",
-          "url": null
-        },
-        {
-          "texto": "compra rápida + 34 36 38 40 Lançamento BLUSA ORLA ALGODÃO - VERDE R$ 313,41 no pix ou R$ 270,52 CLUBE. ou 3x de R$ 109,96 sem juros",
+          "texto": "compra rápida + P M G GG Lançamento CAMISETA TRAÇOS 100% ALGODÃO - MARROM R$ 244,15 no pix ou R$ 200,20 CLUBE. ou 2x de R$ 128,50 sem juros",
           "url": null
         }
       ],
       "promocoes_novas": [],
       "promocoes_encerradas": [],
       "lancamentos_novos": [
-        "compra rápida + 36 37 38 39 40 Lançamento",
-        "compra rápida + 34 36 38 40 Lançamento BLUSA ORLA ALGODÃO - VERDE R$ 313,41 no pix ou R$ 270,52 CLUBE. ou 3x de R$ 109,96 sem juros"
+        "compra rápida + U Lançamento",
+        "compra rápida + P M G GG Lançamento CALÇA ORIGEM LINHO - PALHA R$ 500,65 no pix ou R$ 410,53 CLUBE. ou 5x de R$ 105,40 sem juros",
+        "compra rápida + P M G GG Lançamento CAMISETA TRAÇOS 100% ALGODÃO - MARROM R$ 244,15 no pix ou R$ 200,20 CLUBE. ou 2x de R$ 128,50 sem juros"
       ]
     },
     "nike": {
