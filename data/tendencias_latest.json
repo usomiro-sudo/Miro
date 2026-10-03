@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-02T13:25:21.766532+00:00",
+  "coletado_em": "2026-10-03T12:10:02.026070+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -49,10 +49,7 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "Macaquinho Carbon Phantom Off White R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
-        "Macaquinho Carbon Phantom Verde R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard"
-      ],
+      "promocoes_novas": [],
       "promocoes_encerradas": [],
       "lancamentos_novos": []
     },
@@ -104,26 +101,9 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "OUTUBRO EM MOVIMENTO SELEÇÃO COM 20% OFF COMPRAR AGORA OUTUBRO EM MOVIMENTO SELEÇÃO COM 20% OFF COMPRAR AGORA",
-        "OUTUBRO EM MOVIMENTO SELEÇÃO COM 20% OFF COMPRAR AGORA",
-        "SELEÇÃO COM 20% OFF",
-        "compra rápida + P M G GG XG Mais vendido Semana 20% OFF"
-      ],
-      "promocoes_encerradas": [
-        "20% OFF em todas as peças. Cupom: OUTUBRO20",
-        "Categoria da semana 20% OFF em todas as peças. Cupom: OUTUBRO20",
-        "compra rápida + P M XG 30% OFF",
-        "compra rápida + P M XG 30% OFF 30% OFF CAMISETA GOLA V ALGODÃO EGÍPCIO - PRETO R$ 104,41 no pix R$ 157,00 ou 1x de R$ 109,90 sem juros"
-      ],
-      "lancamentos_novos": [
-        "compra rápida + P M G GG XG Lançamento Semana 20% OFF",
-        "Lançamento Semana 20% OFF",
-        "compra rápida + P M G GG Lançamento Semana 20% OFF",
-        "NOVA COLEÇÃO OFFLINE COMPRAR AGORA NOVA COLEÇÃO OFFLINE COMPRAR AGORA",
-        "NOVA COLEÇÃO OFFLINE COMPRAR AGORA",
-        "NOVA COLEÇÃO"
-      ]
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
+      "lancamentos_novos": []
     },
     "nike": {
       "nome": "Nike",
