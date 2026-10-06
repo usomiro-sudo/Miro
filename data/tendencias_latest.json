@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-05T15:27:30.308498+00:00",
+  "coletado_em": "2026-10-06T13:49:53.428574+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -62,9 +62,9 @@
         "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 12% OFF",
-        "OUTUBRO EM MOVIMENTO SELEÇÃO COM 20% OFF COMPRAR AGORA OUTUBRO EM MOVIMENTO SELEÇÃO COM 20% OFF COMPRAR AGORA",
-        "OUTUBRO EM MOVIMENTO SELEÇÃO COM 20% OFF COMPRAR AGORA",
-        "SELEÇÃO COM 20% OFF",
+        "OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA",
+        "OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA",
+        "20% OFF + BRINDE",
         "compra rápida + P M G GG XG Mais vendido Semana 20% OFF"
       ],
       "lancamentos": [
@@ -85,11 +85,11 @@
           "url": null
         },
         {
-          "texto": "NOVA COLEÇÃO OFFLINE COMPRAR AGORA NOVA COLEÇÃO OFFLINE COMPRAR AGORA",
+          "texto": "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
           "url": null
         },
         {
-          "texto": "NOVA COLEÇÃO OFFLINE COMPRAR AGORA",
+          "texto": "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
           "url": null
         },
         {
@@ -97,13 +97,25 @@
           "url": null
         },
         {
-          "texto": "Últimos lançamentos...",
+          "texto": "compra rápida + U Lançamento",
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
-      "lancamentos_novos": []
+      "promocoes_novas": [
+        "OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA",
+        "OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA",
+        "20% OFF + BRINDE"
+      ],
+      "promocoes_encerradas": [
+        "OUTUBRO EM MOVIMENTO SELEÇÃO COM 20% OFF COMPRAR AGORA",
+        "OUTUBRO EM MOVIMENTO SELEÇÃO COM 20% OFF COMPRAR AGORA OUTUBRO EM MOVIMENTO SELEÇÃO COM 20% OFF COMPRAR AGORA",
+        "SELEÇÃO COM 20% OFF"
+      ],
+      "lancamentos_novos": [
+        "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
+        "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
+        "compra rápida + U Lançamento"
+      ]
     },
     "nike": {
       "nome": "Nike",
