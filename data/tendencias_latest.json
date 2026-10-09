@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-08T14:17:49.877616+00:00",
+  "coletado_em": "2026-10-09T14:02:41.707692+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -58,8 +58,8 @@
       "url": "https://www.vorr.com.br",
       "erro": null,
       "promocoes": [
-        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$299 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$299",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 12% OFF",
         "OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA",
@@ -68,6 +68,18 @@
         "compra rápida + P M G GG XG Mais vendido Semana 20% OFF"
       ],
       "lancamentos": [
+        {
+          "texto": "compra rápida + P M G Lançamento Semana 20% OFF",
+          "url": null
+        },
+        {
+          "texto": "Lançamento Semana 20% OFF",
+          "url": null
+        },
+        {
+          "texto": "Lançamento",
+          "url": null
+        },
         {
           "texto": "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
           "url": null
@@ -85,31 +97,21 @@
           "url": null
         },
         {
-          "texto": "Lançamento",
-          "url": null
-        },
-        {
           "texto": "compra rápida + P M G Lançamento",
-          "url": null
-        },
-        {
-          "texto": "compra rápida + 38 40 42 Lançamento",
-          "url": null
-        },
-        {
-          "texto": "LANÇAMENTOS",
           "url": null
         }
       ],
       "promocoes_novas": [
-        "compra rápida + P M G GG XG Mais vendido Semana 20% OFF"
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$299 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$299"
       ],
       "promocoes_encerradas": [
-        "compra rápida + P G GG XG Mais vendido Semana 20% OFF"
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399",
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$399 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH"
       ],
       "lancamentos_novos": [
-        "compra rápida + 38 40 42 Lançamento",
-        "LANÇAMENTOS"
+        "compra rápida + P M G Lançamento Semana 20% OFF",
+        "Lançamento Semana 20% OFF"
       ]
     },
     "nike": {
