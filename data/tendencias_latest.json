@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-10T13:11:15.498259+00:00",
+  "coletado_em": "2026-10-11T13:42:01.926865+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -32,12 +32,12 @@
       "promocoes": [
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
-        "Macaquinho Carbon Phantom Off White R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
-        "R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
-        "R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
+        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
+        "R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
+        "R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
         "com desconto",
         "desconto",
-        "Macaquinho Carbon Phantom Verde R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard"
+        "Maiô Paola Carrijo Woom Verde II R$249,90 R$ 237 , 41 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão MasterCard"
       ],
       "lancamentos": [
         {
@@ -49,8 +49,18 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
+        "R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
+        "R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
+        "Maiô Paola Carrijo Woom Verde II R$249,90 R$ 237 , 41 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão MasterCard"
+      ],
+      "promocoes_encerradas": [
+        "Macaquinho Carbon Phantom Off White R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
+        "Macaquinho Carbon Phantom Verde R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
+        "R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard",
+        "R$999,90 R$ 949 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 83 , 33 Sem juros Cartão MasterCard"
+      ],
       "lancamentos_novos": []
     },
     "vorr": {
@@ -97,14 +107,14 @@
           "url": null
         },
         {
-          "texto": "compra rápida + M G Lançamento",
+          "texto": "compra rápida + G Lançamento",
           "url": null
         }
       ],
       "promocoes_novas": [],
       "promocoes_encerradas": [],
       "lancamentos_novos": [
-        "compra rápida + M G Lançamento"
+        "compra rápida + G Lançamento"
       ]
     },
     "nike": {
