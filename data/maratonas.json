@@ -1,17 +1,416 @@
 {
-  "atualizado_em": "2026-10-12",
-  "descricao": "Maratonas (42K) e meias (21K) do Brasil. A tela do calendario MIRO le este arquivo. Provas que ja passaram sao escondidas pela propria tela.",
-  "provas": [
-    {"id":"bonito-2026-09-06","uf":"MS","name":"1ª Maratona de Bonito","city":"Bonito","date":"2026-09-06","dateLabel":"6 de setembro de 2026","distancia":"42K","url":null},
-    {"id":"salvador-2026-09-27","uf":"BA","name":"Maratona de Salvador","city":"Salvador","date":"2026-09-27","dateLabel":"27 de setembro de 2026","distancia":"42K","url":null},
-    {"id":"niteroi-2026-09-27","uf":"RJ","name":"Maratona de Niterói","city":"Niterói","date":"2026-09-27","dateLabel":"27 de setembro de 2026","distancia":"42K","url":null},
-    {"id":"aracaju-2026-11-01","uf":"SE","name":"Maratona de Aracaju","city":"Aracaju","date":"2026-11-01","dateLabel":"1 de novembro de 2026","distancia":"42K","url":null},
-    {"id":"curitiba-2026-11","uf":"PR","name":"Maratona de Curitiba","city":"Curitiba","date":"2026-11-15","dateLabel":"novembro de 2026 (data exata a confirmar)","distancia":"42K","url":null},
-    {"id":"brasilia-2026-11-22","uf":"DF","name":"Maratona Monumental de Brasília","city":"Brasília","date":"2026-11-22","dateLabel":"22 de novembro de 2026","distancia":"42K","url":null},
-    {"id":"ribeirao-preto-2027-01-23","uf":"SP","name":"Maratona Oficial de Ribeirão Preto","city":"Ribeirão Preto","date":"2027-01-23","dateLabel":"23–24 de janeiro de 2027","distancia":"42K","url":null},
-    {"id":"bento-goncalves-2027-01-30","uf":"RS","name":"Maratona do Vinho","city":"Bento Gonçalves","date":"2027-01-30","dateLabel":"30 de janeiro de 2027","distancia":"42K","url":null},
-    {"id":"santa-cruz-cabralia-2027-02-27","uf":"BA","name":"Trail Run do Descobrimento","city":"Santa Cruz Cabrália","date":"2027-02-27","dateLabel":"27 de fevereiro de 2027","distancia":"42K","url":null},
-    {"id":"campinas-2027-03-13","uf":"SP","name":"Maratona Internacional de Campinas","city":"Campinas","date":"2027-03-13","dateLabel":"13–14 de março de 2027","distancia":"42K","url":null},
-    {"id":"mucuge-2027-03-27","uf":"BA","name":"Corrida Santa","city":"Mucugê","date":"2027-03-27","dateLabel":"27 de março de 2027","distancia":"42K","url":null}
-  ]
+ "atualizado_em": "2026-10-12",
+ "descricao": "Maratonas (42K) do Brasil. A tela do calendario MIRO le este arquivo. Provas que ja passaram sao escondidas pela propria tela. Fontes: sites oficiais, Ticket Sports, Sympla, Sprinta, Road Runners, running.life.",
+ "provas": [
+  {
+   "id": "pomerode-2026-10-17",
+   "uf": "SC",
+   "name": "Maratona Internacional de Pomerode",
+   "city": "Pomerode",
+   "date": "2026-10-17",
+   "dateLabel": "17 de outubro de 2026",
+   "distancia": "42K",
+   "url": "https://vemcorrer.com/evento/345-maratona-internacional-de-pomerode-2026"
+  },
+  {
+   "id": "brasilia-city-cross-2026-10-25",
+   "uf": "DF",
+   "name": "City Cross Marathon",
+   "city": "Brasília",
+   "date": "2026-10-25",
+   "dateLabel": "25 de outubro de 2026",
+   "distancia": "42K",
+   "url": "https://www.ticketsports.com.br/e/city-cross-marathon-2026-74339"
+  },
+  {
+   "id": "joinville-2026-10-31",
+   "uf": "SC",
+   "name": "1ª Maratona de Joinville",
+   "city": "Joinville",
+   "date": "2026-10-31",
+   "dateLabel": "31 de outubro e 1º de novembro de 2026 (dia dos 42K a confirmar)",
+   "distancia": "42K",
+   "url": "https://www.ticketsports.com.br/e/1o-maratona-de-joinville-87159"
+  },
+  {
+   "id": "aracaju-2026-11-01",
+   "uf": "SE",
+   "name": "Maratona de Aracaju",
+   "city": "Aracaju",
+   "date": "2026-11-01",
+   "dateLabel": "1 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://www.ticketsports.com.br/e/maratona-de-aracaju-2026-74615"
+  },
+  {
+   "id": "pedra-azul-2026-11-01",
+   "uf": "ES",
+   "name": "Maratona Pedra Azul",
+   "city": "Domingos Martins",
+   "date": "2026-11-01",
+   "dateLabel": "1 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=86752&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "santarem-2026-11-01",
+   "uf": "PA",
+   "name": "Maratona ZÉfiro",
+   "city": "Santarém",
+   "date": "2026-11-01",
+   "dateLabel": "1 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://timeupmarcacoes.com.br/evento/maratona-zefiro-2026"
+  },
+  {
+   "id": "santa-cruz-do-sul-2026-11-08",
+   "uf": "RS",
+   "name": "8ª Maratona de Santa Cruz do Sul",
+   "city": "Santa Cruz do Sul",
+   "date": "2026-11-08",
+   "dateLabel": "8 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://www.youmovin.com.br/evento/7a-maratona-de-santa-cruz_8106"
+  },
+  {
+   "id": "praia-grande-sc-2026-11-14",
+   "uf": "SC",
+   "name": "Maratona Capital dos Canyons",
+   "city": "Praia Grande",
+   "date": "2026-11-14",
+   "dateLabel": "14 e 15 de novembro de 2026 (dia dos 42K a confirmar)",
+   "distancia": "42K",
+   "url": "https://app.sprinta.com.br/e/1-maratona-capital-dos-canyons_200d"
+  },
+  {
+   "id": "curitiba-2026-11",
+   "uf": "PR",
+   "name": "Santander Maratona de Curitiba",
+   "city": "Curitiba",
+   "date": "2026-11-15",
+   "dateLabel": "15 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://maratonadecuritiba.com.br/"
+  },
+  {
+   "id": "fortaleza-cometa-2026-11-15",
+   "uf": "CE",
+   "name": "Maratona Cometa",
+   "city": "Fortaleza",
+   "date": "2026-11-15",
+   "dateLabel": "15 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://www.ticketsports.com.br/e/MARATONA+COMETA-87835"
+  },
+  {
+   "id": "osorio-2026-11-15",
+   "uf": "RS",
+   "name": "1ª Osório City Marathon",
+   "city": "Osório",
+   "date": "2026-11-15",
+   "dateLabel": "15 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://www.sulsportshow.com.br/evento/2026/maratona/maratona-osorio"
+  },
+  {
+   "id": "porto-velho-2026-11-15",
+   "uf": "RO",
+   "name": "4ª Maratona Yopro de Porto Velho",
+   "city": "Porto Velho",
+   "date": "2026-11-15",
+   "dateLabel": "15 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://www.sympla.com.br/evento/4a-maratona-yopro-de-porto-velho/3493792"
+  },
+  {
+   "id": "brasilia-2026-11-22",
+   "uf": "DF",
+   "name": "Maratona Monumental de Brasília",
+   "city": "Brasília",
+   "date": "2026-11-21",
+   "dateLabel": "21 e 22 de novembro de 2026 (dia dos 42K a confirmar)",
+   "distancia": "42K",
+   "url": "https://www.ticketsports.com.br/e/74828"
+  },
+  {
+   "id": "itapemirim-2026-11-22",
+   "uf": "ES",
+   "name": "Maratona Internacional do ES",
+   "city": "Itapemirim",
+   "date": "2026-11-22",
+   "dateLabel": "22 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://www.movnow.com.br/eventos/288-maratona-internacional-do-es"
+  },
+  {
+   "id": "maringa-2026-11-22",
+   "uf": "PR",
+   "name": "Maratona Internacional de Maringá",
+   "city": "Maringá",
+   "date": "2026-11-22",
+   "dateLabel": "22 de novembro de 2026",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=87138&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "sorocaba-2026-11-22",
+   "uf": "SP",
+   "name": "9ª Maratona Sorocaba Novembro Azul",
+   "city": "Sorocaba",
+   "date": "2026-11-22",
+   "dateLabel": "22 de novembro de 2026 (evento em 21 e 22/11)",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=85780&origem=novo-site&lang=pt-BR"
+  },
+  {
+   "id": "ribeirao-preto-2027-01-23",
+   "uf": "SP",
+   "name": "Maratona Oficial de Ribeirão Preto",
+   "city": "Ribeirão Preto",
+   "date": "2027-01-24",
+   "dateLabel": "24 de janeiro de 2027 (evento em 23 e 24/01)",
+   "distancia": "42K",
+   "url": "https://www.ticketsports.com.br/e/MARATONA+OFICIAL+DE+RIBEIR%C3%83O+PRETO+2027-86058"
+  },
+  {
+   "id": "bento-goncalves-2027-01-30",
+   "uf": "RS",
+   "name": "Maratona do Vinho",
+   "city": "Bento Gonçalves",
+   "date": "2027-01-30",
+   "dateLabel": "30 de janeiro de 2027",
+   "distancia": "42K",
+   "url": "https://www.maratonadovinho.com.br/regulamento"
+  },
+  {
+   "id": "santa-cruz-cabralia-2027-02-27",
+   "uf": "BA",
+   "name": "Trail Run do Descobrimento (42K trail)",
+   "city": "Santa Cruz Cabrália",
+   "date": "2027-02-27",
+   "dateLabel": "27 de fevereiro de 2027",
+   "distancia": "42K",
+   "url": "https://www.races.com.br/trail-run-do-descobrimento-2027"
+  },
+  {
+   "id": "torres-2027-03-13",
+   "uf": "RS",
+   "name": "3ª Maratona Internacional de Torres",
+   "city": "Torres",
+   "date": "2027-03-13",
+   "dateLabel": "13 de março de 2027",
+   "distancia": "42K",
+   "url": "https://app.sprinta.com.br/event/10922469c17ee9be48a"
+  },
+  {
+   "id": "campinas-2027-03-13",
+   "uf": "SP",
+   "name": "Maratona Internacional de Campinas",
+   "city": "Campinas",
+   "date": "2027-03-14",
+   "dateLabel": "14 de março de 2027",
+   "distancia": "42K",
+   "url": "https://www.ticketsports.com.br/e/MARATONA+INTERNACIONAL+DE+CAMPINAS+-+2%C2%AA+EDI%C3%87%C3%83O-87440"
+  },
+  {
+   "id": "manaus-2027-03-27",
+   "uf": "AM",
+   "name": "Maratona Internacional de Manaus",
+   "city": "Manaus",
+   "date": "2027-03-27",
+   "dateLabel": "27 de março de 2027",
+   "distancia": "42K",
+   "url": "https://app.sprinta.com.br/event/1401976a689d5d1dd81"
+  },
+  {
+   "id": "guaratuba-2027-03-28",
+   "uf": "PR",
+   "name": "Maratona Internacional do Paraná",
+   "city": "Guaratuba",
+   "date": "2027-03-28",
+   "dateLabel": "28 de março de 2027",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=88364&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "sao-paulo-2027-04-04",
+   "uf": "SP",
+   "name": "Maratona Internacional de São Paulo",
+   "city": "São Paulo",
+   "date": "2027-04-04",
+   "dateLabel": "4 de abril de 2027",
+   "distancia": "42K",
+   "url": "https://www.yescom.com.br/maratonasp/2027/index.asp"
+  },
+  {
+   "id": "fortaleza-2027-04-11",
+   "uf": "CE",
+   "name": "Maratona de Fortaleza",
+   "city": "Fortaleza",
+   "date": "2027-04-11",
+   "dateLabel": "11 de abril de 2027",
+   "distancia": "42K",
+   "url": "http://www.maratonadefortaleza.com.br/"
+  },
+  {
+   "id": "joao-pessoa-2027-04-18",
+   "uf": "PB",
+   "name": "Maratona Internacional de João Pessoa",
+   "city": "João Pessoa",
+   "date": "2027-04-18",
+   "dateLabel": "18 de abril de 2027",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=86808&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "brasilia-2027-04-21",
+   "uf": "DF",
+   "name": "Maratona Brasília",
+   "city": "Brasília",
+   "date": "2027-04-21",
+   "dateLabel": "21 de abril de 2027",
+   "distancia": "42K",
+   "url": "https://brasilcorrida.com.br/#/evento/maratona-brasilia-2027"
+  },
+  {
+   "id": "salvador-2027-04-25",
+   "uf": "BA",
+   "name": "Maratona da Bahia",
+   "city": "Salvador",
+   "date": "2027-04-25",
+   "dateLabel": "25 de abril de 2027",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=87212&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "padua-2027-05-01",
+   "uf": "RJ",
+   "name": "Maratona de Pádua RJ",
+   "city": "Santo Antônio de Pádua",
+   "date": "2027-05-01",
+   "dateLabel": "1º e 2 de maio de 2027 (dia dos 42K a confirmar)",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=88199&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "piracicaba-2027-05-02",
+   "uf": "SP",
+   "name": "2ª Maratona de Piracicaba",
+   "city": "Piracicaba",
+   "date": "2027-05-02",
+   "dateLabel": "2 de maio de 2027",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=86973&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "belo-horizonte-2027-05-16",
+   "uf": "MG",
+   "name": "Maratona Oficial de Belo Horizonte",
+   "city": "Belo Horizonte",
+   "date": "2027-05-16",
+   "dateLabel": "16 de maio de 2027 (evento de 14 a 16/05)",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=87396&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "tubarao-2027-05-23",
+   "uf": "SC",
+   "name": "Maratona de Tubarão",
+   "city": "Tubarão",
+   "date": "2027-05-23",
+   "dateLabel": "23 de maio de 2027",
+   "distancia": "42K",
+   "url": "https://www.onsportsoficial.com.br/evento/2027/corrida-de-rua/maratona-de-tubarao-2027"
+  },
+  {
+   "id": "rio-de-janeiro-2027-05-27",
+   "uf": "RJ",
+   "name": "Maratona do Rio",
+   "city": "Rio de Janeiro",
+   "date": "2027-05-27",
+   "dateLabel": "27 a 30 de maio de 2027 (dia dos 42K a confirmar)",
+   "distancia": "42K",
+   "url": "https://maratonadorio.com.br/pt/corrida/42k-2027"
+  },
+  {
+   "id": "florianopolis-2027-05-30",
+   "uf": "SC",
+   "name": "Maratona de Florianópolis (42K de Floripa)",
+   "city": "Florianópolis",
+   "date": "2027-05-30",
+   "dateLabel": "30 de maio de 2027",
+   "distancia": "42K",
+   "url": "https://www.runningland.com.br/16-meia-maratona-de-florianopolis-42k-de-floripa"
+  },
+  {
+   "id": "porto-alegre-2027-06-06",
+   "uf": "RS",
+   "name": "Maratona Internacional de Porto Alegre",
+   "city": "Porto Alegre",
+   "date": "2027-06-06",
+   "dateLabel": "6 de junho de 2027 (evento em 5 e 6/06)",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=86759&origem=novo-site"
+  },
+  {
+   "id": "olinda-2027-06-13",
+   "uf": "PE",
+   "name": "Maratona Internacional de Olinda",
+   "city": "Olinda",
+   "date": "2027-06-13",
+   "dateLabel": "13 de junho de 2027",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=87264&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "praia-grande-sp-2027-06-20",
+   "uf": "SP",
+   "name": "3ª Maratona Internacional Praia Grande",
+   "city": "Praia Grande",
+   "date": "2027-06-20",
+   "dateLabel": "20 de junho de 2027",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=87807&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "campo-grande-2027-07-04",
+   "uf": "MS",
+   "name": "Maratona de Campo Grande",
+   "city": "Campo Grande",
+   "date": "2027-07-04",
+   "dateLabel": "4 de julho de 2027 (evento em 3 e 4/07)",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=88256&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "londrina-2027-07-04",
+   "uf": "PR",
+   "name": "Maratona de Londrina",
+   "city": "Londrina",
+   "date": "2027-07-04",
+   "dateLabel": "4 de julho de 2027",
+   "distancia": "42K",
+   "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=87777&origem=novo-site&lang=en-US"
+  },
+  {
+   "id": "sao-paulo-nike-2027-07-25",
+   "uf": "SP",
+   "name": "Nike SP City Marathon",
+   "city": "São Paulo",
+   "date": "2027-07-25",
+   "dateLabel": "25 de julho de 2027",
+   "distancia": "42K",
+   "url": "https://iguanasports.com.br/pages/nike-sp-city-marathon-2027"
+  },
+  {
+   "id": "maceio-2027-07-31",
+   "uf": "AL",
+   "name": "Maratona Internacional de Maceió",
+   "city": "Maceió",
+   "date": "2027-07-31",
+   "dateLabel": "31 de julho de 2027 (evento até 1º de agosto)",
+   "distancia": "42K",
+   "url": "https://www.ticketsports.com.br/e/MARATONA+INTERNACIONAL+DE+MACEI%C3%93+2027-88060"
+  }
+ ]
 }
