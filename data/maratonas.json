@@ -1,0 +1,17 @@
+{
+  "atualizado_em": "2026-10-12",
+  "descricao": "Maratonas (42K) e meias (21K) do Brasil. A tela do calendario MIRO le este arquivo. Provas que ja passaram sao escondidas pela propria tela.",
+  "provas": [
+    {"id":"bonito-2026-09-06","uf":"MS","name":"1ª Maratona de Bonito","city":"Bonito","date":"2026-09-06","dateLabel":"6 de setembro de 2026","distancia":"42K","url":null},
+    {"id":"salvador-2026-09-27","uf":"BA","name":"Maratona de Salvador","city":"Salvador","date":"2026-09-27","dateLabel":"27 de setembro de 2026","distancia":"42K","url":null},
+    {"id":"niteroi-2026-09-27","uf":"RJ","name":"Maratona de Niterói","city":"Niterói","date":"2026-09-27","dateLabel":"27 de setembro de 2026","distancia":"42K","url":null},
+    {"id":"aracaju-2026-11-01","uf":"SE","name":"Maratona de Aracaju","city":"Aracaju","date":"2026-11-01","dateLabel":"1 de novembro de 2026","distancia":"42K","url":null},
+    {"id":"curitiba-2026-11","uf":"PR","name":"Maratona de Curitiba","city":"Curitiba","date":"2026-11-15","dateLabel":"novembro de 2026 (data exata a confirmar)","distancia":"42K","url":null},
+    {"id":"brasilia-2026-11-22","uf":"DF","name":"Maratona Monumental de Brasília","city":"Brasília","date":"2026-11-22","dateLabel":"22 de novembro de 2026","distancia":"42K","url":null},
+    {"id":"ribeirao-preto-2027-01-23","uf":"SP","name":"Maratona Oficial de Ribeirão Preto","city":"Ribeirão Preto","date":"2027-01-23","dateLabel":"23–24 de janeiro de 2027","distancia":"42K","url":null},
+    {"id":"bento-goncalves-2027-01-30","uf":"RS","name":"Maratona do Vinho","city":"Bento Gonçalves","date":"2027-01-30","dateLabel":"30 de janeiro de 2027","distancia":"42K","url":null},
+    {"id":"santa-cruz-cabralia-2027-02-27","uf":"BA","name":"Trail Run do Descobrimento","city":"Santa Cruz Cabrália","date":"2027-02-27","dateLabel":"27 de fevereiro de 2027","distancia":"42K","url":null},
+    {"id":"campinas-2027-03-13","uf":"SP","name":"Maratona Internacional de Campinas","city":"Campinas","date":"2027-03-13","dateLabel":"13–14 de março de 2027","distancia":"42K","url":null},
+    {"id":"mucuge-2027-03-27","uf":"BA","name":"Corrida Santa","city":"Mucugê","date":"2027-03-27","dateLabel":"27 de março de 2027","distancia":"42K","url":null}
+  ]
+}
