@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-12T16:22:37.257393+00:00",
+  "coletado_em": "2026-10-13T14:43:25.836068+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -65,21 +65,9 @@
         "OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA",
         "OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA",
         "20% OFF + BRINDE",
-        "compra rápida + P M G GG XG Mais vendido Semana 20% OFF"
+        "compra rápida + U Mais vendido Semana 20% OFF"
       ],
       "lancamentos": [
-        {
-          "texto": "compra rápida + P M G Lançamento Semana 20% OFF",
-          "url": null
-        },
-        {
-          "texto": "Lançamento Semana 20% OFF",
-          "url": null
-        },
-        {
-          "texto": "Lançamento",
-          "url": null
-        },
         {
           "texto": "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
           "url": null
@@ -93,17 +81,36 @@
           "url": null
         },
         {
-          "texto": "compra rápida + U Lançamento",
+          "texto": "compra rápida + U Lançamento Semana 20% OFF",
+          "url": null
+        },
+        {
+          "texto": "Lançamento Semana 20% OFF",
+          "url": null
+        },
+        {
+          "texto": "Lançamento",
           "url": null
         },
         {
           "texto": "compra rápida + G Lançamento",
           "url": null
+        },
+        {
+          "texto": "compra rápida + 38 40 42 Lançamento",
+          "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
-      "lancamentos_novos": []
+      "promocoes_novas": [
+        "compra rápida + U Mais vendido Semana 20% OFF"
+      ],
+      "promocoes_encerradas": [
+        "compra rápida + P M G GG XG Mais vendido Semana 20% OFF"
+      ],
+      "lancamentos_novos": [
+        "compra rápida + U Lançamento Semana 20% OFF",
+        "compra rápida + 38 40 42 Lançamento"
+      ]
     },
     "nike": {
       "nome": "Nike",
