@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-13T14:43:25.836068+00:00",
+  "coletado_em": "2026-10-14T12:35:33.696976+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -101,16 +101,9 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "compra rápida + U Mais vendido Semana 20% OFF"
-      ],
-      "promocoes_encerradas": [
-        "compra rápida + P M G GG XG Mais vendido Semana 20% OFF"
-      ],
-      "lancamentos_novos": [
-        "compra rápida + U Lançamento Semana 20% OFF",
-        "compra rápida + 38 40 42 Lançamento"
-      ]
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
+      "lancamentos_novos": []
     },
     "nike": {
       "nome": "Nike",
