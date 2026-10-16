@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-15T12:22:26.239696+00:00",
+  "coletado_em": "2026-10-16T12:02:22.383068+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -37,7 +37,7 @@
         "R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
         "com desconto",
         "desconto",
-        "Maiô Paola Carrijo Woom Verde II R$249,90 R$ 237 , 41 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão MasterCard"
+        "Maiô Paola Carrijo Hawi R$249,90 R$ 237 , 41 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão MasterCard"
       ],
       "lancamentos": [
         {
@@ -49,8 +49,12 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "Maiô Paola Carrijo Hawi R$249,90 R$ 237 , 41 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão MasterCard"
+      ],
+      "promocoes_encerradas": [
+        "Maiô Paola Carrijo Woom Verde II R$249,90 R$ 237 , 41 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão MasterCard"
+      ],
       "lancamentos_novos": []
     },
     "vorr": {
