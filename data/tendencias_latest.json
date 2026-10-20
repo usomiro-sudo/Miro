@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-19T14:14:04.945967+00:00",
+  "coletado_em": "2026-10-20T12:27:47.364882+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -62,36 +62,65 @@
         "FRETE GRÁTIS | COMPRAS ACIMA DE R$299",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "GANHE 12% OFF",
-        "NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE",
-        "NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE",
-        "Cadastre seu e-mail e ganhe 12% OFF",
-        "FRETE GRÁTIS em compras acima de R$299 para todo o Brasil."
+        "compra rápida + U Mais vendido 10% OFF",
+        "Mais vendido 10% OFF",
+        "10% OFF",
+        "compra rápida + P M G GG XG Mais vendido 10% OFF"
       ],
       "lancamentos": [
         {
-          "texto": "OUTUBRO EM MOVIMENTO LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS ÚLTIMAS PEÇAS ATÉ 50% OFF KITS ATÉ 20% OFF CLUBE. DE BENEFÍCIOS JORNAL ENDÖRFINA",
+          "texto": "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
+          "url": null
+        },
+        {
+          "texto": "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
+          "url": null
+        },
+        {
+          "texto": "NOVA COLEÇÃO",
+          "url": null
+        },
+        {
+          "texto": "compra rápida + U Lançamento 10% OFF",
+          "url": null
+        },
+        {
+          "texto": "Lançamento 10% OFF",
+          "url": null
+        },
+        {
+          "texto": "Lançamento",
+          "url": null
+        },
+        {
+          "texto": "compra rápida + P M G GG XG Lançamento 10% OFF",
           "url": null
         },
         {
           "texto": "LANÇAMENTOS",
-          "url": "https://www.vorr.com.br/collections/lancamentos-vorr-brasil"
+          "url": null
         }
       ],
       "promocoes_novas": [
-        "NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE",
-        "NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE",
-        "Cadastre seu e-mail e ganhe 12% OFF",
-        "FRETE GRÁTIS em compras acima de R$299 para todo o Brasil."
+        "compra rápida + U Mais vendido 10% OFF",
+        "Mais vendido 10% OFF",
+        "10% OFF",
+        "compra rápida + P M G GG XG Mais vendido 10% OFF"
       ],
       "promocoes_encerradas": [
-        "20% OFF + BRINDE",
-        "OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA",
-        "OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA OUTUBRO EM MOVIMENTO 20% OFF + BRINDE COMPRAR AGORA",
-        "compra rápida + U Mais vendido Semana 20% OFF"
+        "Cadastre seu e-mail e ganhe 12% OFF",
+        "FRETE GRÁTIS em compras acima de R$299 para todo o Brasil.",
+        "NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE",
+        "NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE"
       ],
       "lancamentos_novos": [
-        "OUTUBRO EM MOVIMENTO LANÇAMENTOS ROUPAS CALÇADOS ACESSÓRIOS ÚLTIMAS PEÇAS ATÉ 50% OFF KITS ATÉ 20% OFF CLUBE. DE BENEFÍCIOS JORNAL ENDÖRFINA",
-        "LANÇAMENTOS"
+        "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
+        "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
+        "NOVA COLEÇÃO",
+        "compra rápida + U Lançamento 10% OFF",
+        "Lançamento 10% OFF",
+        "Lançamento",
+        "compra rápida + P M G GG XG Lançamento 10% OFF"
       ]
     },
     "nike": {
