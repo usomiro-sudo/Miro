@@ -1,28 +1,23 @@
 {
-  "coletado_em": "2026-10-20T12:27:47.364882+00:00",
+  "coletado_em": "2026-10-21T12:37:30.685417+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
       "url": "https://seekdopa.com",
       "erro": null,
-      "promocoes": [
-        "Crop Race R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
-        "R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
-        "R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO /",
-        "| R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO",
-        "MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO",
-        "MEMBROS TÊM 12% OFF",
-        "Top Race R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
-        "R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG"
-      ],
-      "lancamentos": [
-        {
-          "texto": "New Arrivals",
-          "url": null
-        }
-      ],
+      "promocoes": [],
+      "lancamentos": [],
       "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_encerradas": [
+        "Crop Race R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
+        "MEMBROS TÊM 12% OFF",
+        "MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO",
+        "R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
+        "R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO /",
+        "R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
+        "Top Race R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
+        "| R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO"
+      ],
       "lancamentos_novos": []
     },
     "woom": {
@@ -61,11 +56,11 @@
         "FRETE GRÁTIS | COMPRAS ACIMA DE R$299 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
         "FRETE GRÁTIS | COMPRAS ACIMA DE R$299",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
+        "Frete Grátis reduzido para R$299",
         "GANHE 12% OFF",
+        "Clube Vörr - 18% OFF e vários benefícios",
         "compra rápida + U Mais vendido 10% OFF",
-        "Mais vendido 10% OFF",
-        "10% OFF",
-        "compra rápida + P M G GG XG Mais vendido 10% OFF"
+        "Mais vendido 10% OFF"
       ],
       "lancamentos": [
         {
@@ -102,26 +97,14 @@
         }
       ],
       "promocoes_novas": [
-        "compra rápida + U Mais vendido 10% OFF",
-        "Mais vendido 10% OFF",
+        "Frete Grátis reduzido para R$299",
+        "Clube Vörr - 18% OFF e vários benefícios"
+      ],
+      "promocoes_encerradas": [
         "10% OFF",
         "compra rápida + P M G GG XG Mais vendido 10% OFF"
       ],
-      "promocoes_encerradas": [
-        "Cadastre seu e-mail e ganhe 12% OFF",
-        "FRETE GRÁTIS em compras acima de R$299 para todo o Brasil.",
-        "NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE",
-        "NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE NEWSLETTER Cadastre seu e-mail e ganhe 12% OFF INSCREVA-SE"
-      ],
-      "lancamentos_novos": [
-        "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
-        "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
-        "NOVA COLEÇÃO",
-        "compra rápida + U Lançamento 10% OFF",
-        "Lançamento 10% OFF",
-        "Lançamento",
-        "compra rápida + P M G GG XG Lançamento 10% OFF"
-      ]
+      "lancamentos_novos": []
     },
     "nike": {
       "nome": "Nike",
