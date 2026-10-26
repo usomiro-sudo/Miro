@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-19",
+  "atualizado_em": "2026-10-26",
   "descricao": "Maratonas (42K) do Brasil. A tela do calendario MIRO le este arquivo. Provas que ja passaram sao escondidas pela propria tela. Fontes: sites oficiais, Ticket Sports, Sympla, Sprinta, Road Runners, running.life.",
   "provas": [
     {
@@ -161,6 +161,16 @@
       "dateLabel": "22 de novembro de 2026 (evento em 21 e 22/11)",
       "distancia": "42K",
       "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=85780&origem=novo-site&lang=pt-BR"
+    },
+    {
+      "id": "cuiaba-2026-12-19",
+      "uf": "MT",
+      "name": "3ª Maratona de Cuiabá",
+      "city": "Cuiabá",
+      "date": "2026-12-19",
+      "dateLabel": "19 de dezembro de 2026 (dia dos 42K a confirmar)",
+      "distancia": "42K",
+      "url": "https://gominhasinscricoes.com.br/evento/3a-maratona-e-5a-meia-maratona-cuiaba"
     },
     {
       "id": "ribeirao-preto-2027-01-23",
