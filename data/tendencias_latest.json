@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-26T13:46:46.474577+00:00",
+  "coletado_em": "2026-10-27T12:54:00.736433+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -64,8 +64,8 @@
         "Frete Grátis reduzido para R$299",
         "GANHE 12% OFF",
         "Clube Vörr - 18% OFF e vários benefícios",
-        "compra rápida + U Mais vendido 10% OFF",
-        "Mais vendido 10% OFF"
+        "compra rápida + U Lançamento 10% OFF",
+        "Lançamento 10% OFF"
       ],
       "lancamentos": [
         {
@@ -77,7 +77,7 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG XG Lançamento 10% OFF",
+          "texto": "compra rápida + U Lançamento 10% OFF",
           "url": null
         },
         {
@@ -93,18 +93,24 @@
           "url": null
         },
         {
-          "texto": "compra rápida + U Lançamento 10% OFF",
+          "texto": "compra rápida + P M G GG XG Lançamento 10% OFF",
           "url": null
         },
         {
-          "texto": "compra rápida + XG Lançamento 10% OFF",
+          "texto": "compra rápida + 38 40 42 44 Lançamento 10% OFF",
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "compra rápida + U Lançamento 10% OFF",
+        "Lançamento 10% OFF"
+      ],
+      "promocoes_encerradas": [
+        "Mais vendido 10% OFF",
+        "compra rápida + U Mais vendido 10% OFF"
+      ],
       "lancamentos_novos": [
-        "compra rápida + XG Lançamento 10% OFF"
+        "compra rápida + 38 40 42 44 Lançamento 10% OFF"
       ]
     },
     "nike": {
