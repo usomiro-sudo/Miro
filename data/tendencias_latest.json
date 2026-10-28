@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-27T12:54:00.736433+00:00",
+  "coletado_em": "2026-10-28T13:42:26.474932+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -31,13 +31,7 @@
       "erro": null,
       "promocoes": [
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
-        "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
-        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
-        "R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
-        "R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
-        "com desconto",
-        "desconto",
-        "Maiô Paola Carrijo Hawi R$249,90 R$ 237 , 41 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão MasterCard"
+        "FRETE GRÁTIS COMPRAS ACIMA DE R$599"
       ],
       "lancamentos": [
         {
@@ -50,7 +44,14 @@
         }
       ],
       "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_encerradas": [
+        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
+        "Maiô Paola Carrijo Hawi R$249,90 R$ 237 , 41 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão MasterCard",
+        "R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
+        "R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
+        "com desconto",
+        "desconto"
+      ],
       "lancamentos_novos": []
     },
     "vorr": {
@@ -77,6 +78,10 @@
           "url": null
         },
         {
+          "texto": "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
+          "url": null
+        },
+        {
           "texto": "compra rápida + U Lançamento 10% OFF",
           "url": null
         },
@@ -89,28 +94,18 @@
           "url": null
         },
         {
-          "texto": "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
+          "texto": "LANÇAMENTOS",
           "url": null
         },
         {
           "texto": "compra rápida + P M G GG XG Lançamento 10% OFF",
           "url": null
-        },
-        {
-          "texto": "compra rápida + 38 40 42 44 Lançamento 10% OFF",
-          "url": null
         }
       ],
-      "promocoes_novas": [
-        "compra rápida + U Lançamento 10% OFF",
-        "Lançamento 10% OFF"
-      ],
-      "promocoes_encerradas": [
-        "Mais vendido 10% OFF",
-        "compra rápida + U Mais vendido 10% OFF"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": [
-        "compra rápida + 38 40 42 44 Lançamento 10% OFF"
+        "LANÇAMENTOS"
       ]
     },
     "nike": {
