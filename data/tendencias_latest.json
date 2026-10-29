@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-28T13:42:26.474932+00:00",
+  "coletado_em": "2026-10-29T13:52:23.488417+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -44,14 +44,7 @@
         }
       ],
       "promocoes_novas": [],
-      "promocoes_encerradas": [
-        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
-        "Maiô Paola Carrijo Hawi R$249,90 R$ 237 , 41 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão MasterCard",
-        "R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
-        "R$712,23 R$ 676 , 62 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão MasterCard",
-        "com desconto",
-        "desconto"
-      ],
+      "promocoes_encerradas": [],
       "lancamentos_novos": []
     },
     "vorr": {
@@ -59,14 +52,14 @@
       "url": "https://www.vorr.com.br",
       "erro": null,
       "promocoes": [
-        "FRETE GRÁTIS | COMPRAS ACIMA DE R$299 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
-        "FRETE GRÁTIS | COMPRAS ACIMA DE R$299",
+        "FRETE GRÁTIS | ACIMA DE R$299",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
+        "COMPRAS NO PIX | GANHE 5% OFF",
+        "Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Retirada lojas BH no mesmo dia Cashback de 15% em todas as compras",
         "Frete Grátis reduzido para R$299",
         "GANHE 12% OFF",
         "Clube Vörr - 18% OFF e vários benefícios",
-        "compra rápida + U Lançamento 10% OFF",
-        "Lançamento 10% OFF"
+        "compra rápida + U Lançamento BLACK 10% OFF"
       ],
       "lancamentos": [
         {
@@ -82,11 +75,11 @@
           "url": null
         },
         {
-          "texto": "compra rápida + U Lançamento 10% OFF",
+          "texto": "compra rápida + U Lançamento BLACK 10% OFF",
           "url": null
         },
         {
-          "texto": "Lançamento 10% OFF",
+          "texto": "Lançamento BLACK 10% OFF",
           "url": null
         },
         {
@@ -98,14 +91,26 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG XG Lançamento 10% OFF",
+          "texto": "compra rápida + P M G GG XG Lançamento BLACK 10% OFF",
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "FRETE GRÁTIS | ACIMA DE R$299",
+        "COMPRAS NO PIX | GANHE 5% OFF",
+        "Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Retirada lojas BH no mesmo dia Cashback de 15% em todas as compras",
+        "compra rápida + U Lançamento BLACK 10% OFF"
+      ],
+      "promocoes_encerradas": [
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$299",
+        "FRETE GRÁTIS | COMPRAS ACIMA DE R$299 GANHE 12% OFF | CUPOM: BEMVINDO ENTREGA NO MESMO DIA | EXPRESSO BH",
+        "Lançamento 10% OFF",
+        "compra rápida + U Lançamento 10% OFF"
+      ],
       "lancamentos_novos": [
-        "LANÇAMENTOS"
+        "compra rápida + U Lançamento BLACK 10% OFF",
+        "Lançamento BLACK 10% OFF",
+        "compra rápida + P M G GG XG Lançamento BLACK 10% OFF"
       ]
     },
     "nike": {
