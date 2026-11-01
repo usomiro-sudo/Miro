@@ -1,19 +1,19 @@
 {
-  "coletado_em": "2026-10-31T13:13:44.783902+00:00",
+  "coletado_em": "2026-11-01T13:57:18.816692+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
       "url": "https://seekdopa.com",
       "erro": null,
       "promocoes": [
+        "Novembro 26 Black November Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Até 15% off",
         "Top Race R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
         "R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
         "R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO /",
         "| R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO",
-        "MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO",
-        "MEMBROS TÊM 12% OFF",
-        "Crop Race R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
-        "R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG"
+        "MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO"
       ],
       "lancamentos": [
         {
@@ -21,8 +21,16 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "Novembro 26 Black November Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Até 15% off"
+      ],
+      "promocoes_encerradas": [
+        "Crop Race R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
+        "MEMBROS TÊM 12% OFF",
+        "R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG"
+      ],
       "lancamentos_novos": []
     },
     "woom": {
@@ -31,7 +39,13 @@
       "erro": null,
       "promocoes": [
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
-        "FRETE GRÁTIS COMPRAS ACIMA DE R$599"
+        "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
+        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
+        "R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
+        "R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
+        "com desconto",
+        "desconto",
+        "Maiô Paola Carrijo Hawi R$249,90 R$ 224 , 91 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão Visa"
       ],
       "lancamentos": [
         {
@@ -43,7 +57,14 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
+      "promocoes_novas": [
+        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
+        "R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
+        "R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
+        "com desconto",
+        "desconto",
+        "Maiô Paola Carrijo Hawi R$249,90 R$ 224 , 91 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão Visa"
+      ],
       "promocoes_encerradas": [],
       "lancamentos_novos": []
     },
