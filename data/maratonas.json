@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-26",
+  "atualizado_em": "2026-11-02",
   "descricao": "Maratonas (42K) do Brasil. A tela do calendario MIRO le este arquivo. Provas que ja passaram sao escondidas pela propria tela. Fontes: sites oficiais, Ticket Sports, Sympla, Sprinta, Road Runners, running.life.",
   "provas": [
     {
@@ -161,6 +161,16 @@
       "dateLabel": "22 de novembro de 2026 (evento em 21 e 22/11)",
       "distancia": "42K",
       "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=85780&origem=novo-site&lang=pt-BR"
+    },
+    {
+      "id": "araxa-2026-11-29",
+      "uf": "MG",
+      "name": "10ª Maratona Desafio do Barreiro (42K Terra, off-road)",
+      "city": "Araxá",
+      "date": "2026-11-29",
+      "dateLabel": "29 de novembro de 2026 (evento em 28 e 29/11)",
+      "distancia": "42K",
+      "url": "https://www.rnsports.com.br/event-details/10-maratona-desafio-do-barreiro-2026"
     },
     {
       "id": "cuiaba-2026-12-19",
