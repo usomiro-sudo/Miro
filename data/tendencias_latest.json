@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-01T13:57:18.816692+00:00",
+  "coletado_em": "2026-11-02T16:43:35.375999+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -21,16 +21,8 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "Novembro 26 Black November Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
-        "Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
-        "Até 15% off"
-      ],
-      "promocoes_encerradas": [
-        "Crop Race R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
-        "MEMBROS TÊM 12% OFF",
-        "R$ 530,00 | R$ 466,40 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": []
     },
     "woom": {
@@ -40,32 +32,22 @@
       "promocoes": [
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
-        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
-        "R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
-        "R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
+        "R$1.799,90 R$ 1.619 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão Visa",
+        "R$ 1.619 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão Visa",
         "com desconto",
-        "desconto",
-        "Maiô Paola Carrijo Hawi R$249,90 R$ 224 , 91 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão Visa"
+        "desconto"
       ],
-      "lancamentos": [
-        {
-          "texto": "Lançamento 01/12",
-          "url": null
-        },
-        {
-          "texto": "Lançamento",
-          "url": null
-        }
-      ],
+      "lancamentos": [],
       "promocoes_novas": [
-        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
-        "R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
-        "R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
-        "com desconto",
-        "desconto",
-        "Maiô Paola Carrijo Hawi R$249,90 R$ 224 , 91 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão Visa"
+        "R$1.799,90 R$ 1.619 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão Visa",
+        "R$ 1.619 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão Visa"
       ],
-      "promocoes_encerradas": [],
+      "promocoes_encerradas": [
+        "Kit Maiôs Paola Carrijo + Woom R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
+        "Maiô Paola Carrijo Hawi R$249,90 R$ 224 , 91 à vista com desconto Pix - Vindi ou 4 x de R$ 62 , 48 Sem juros Cartão Visa",
+        "R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa",
+        "R$712,23 R$ 641 , 01 à vista com desconto Pix - Vindi ou 12 x de R$ 59 , 35 Sem juros Cartão Visa"
+      ],
       "lancamentos_novos": []
     },
     "vorr": {
