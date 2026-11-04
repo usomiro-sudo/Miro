@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-03T14:47:29.036384+00:00",
+  "coletado_em": "2026-11-04T14:59:25.720602+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -13,7 +13,7 @@
         "R$ 455,70 R$ 490 7% off",
         "7% off",
         "Shorts Speed Marathon Azul Escuro R$ 455,70 R$ 490 7% off",
-        "Camiseta Race Preto R$ 288 R$ 320 10% off"
+        "Camiseta Race Preto R$ 272 R$ 320 15% off"
       ],
       "lancamentos": [
         {
@@ -22,18 +22,10 @@
         }
       ],
       "promocoes_novas": [
-        "Shorts Speed Marathon Cinza Escuro R$ 455,70 R$ 490 7% off",
-        "R$ 455,70 R$ 490 7% off",
-        "7% off",
-        "Shorts Speed Marathon Azul Escuro R$ 455,70 R$ 490 7% off",
-        "Camiseta Race Preto R$ 288 R$ 320 10% off"
+        "Camiseta Race Preto R$ 272 R$ 320 15% off"
       ],
       "promocoes_encerradas": [
-        "MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO",
-        "R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO /",
-        "R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
-        "Top Race R$ 475,00 | R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO / XP P M G XG",
-        "| R$ 418,00 MEMBROS TÊM 12% OFF LOGIN SEJA MEMBRO"
+        "Camiseta Race Preto R$ 288 R$ 320 10% off"
       ],
       "lancamentos_novos": []
     },
@@ -62,11 +54,11 @@
         "FRETE GRÁTIS | ACIMA DE R$299",
         "GANHE 12% OFF | CUPOM: BEMVINDO",
         "COMPRAS NO PIX | GANHE 5% OFF",
-        "Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Retirada lojas BH no mesmo dia Cashback de 15% em todas as compras",
+        "3 notificações Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Cashback de 15% em todas as compras",
+        "Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Cashback de 15% em todas as compras",
         "Frete Grátis reduzido para R$299",
         "GANHE 12% OFF",
-        "Clube Vörr - 18% OFF e vários benefícios",
-        "compra rápida + U Lançamento BLACK 10% OFF"
+        "Clube Vörr - 18% OFF e vários benefícios"
       ],
       "lancamentos": [
         {
@@ -78,19 +70,11 @@
           "url": null
         },
         {
-          "texto": "NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA NOVA COLEÇÃO VERÃO 27' OFFLINE COMPRAR AGORA",
+          "texto": "LANÇAMENTOS VER MAIS LANÇAMENTOS VER MAIS",
           "url": null
         },
         {
-          "texto": "compra rápida + U Lançamento BLACK 10% OFF",
-          "url": null
-        },
-        {
-          "texto": "Lançamento BLACK 10% OFF",
-          "url": null
-        },
-        {
-          "texto": "Lançamento",
+          "texto": "LANÇAMENTOS VER MAIS",
           "url": null
         },
         {
@@ -98,13 +82,33 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG XG Lançamento BLACK 10% OFF",
+          "texto": "Amei muito, chegou rápido e direitinho! Comprarei mais vezes! Livia Almeida 10/26/2026",
+          "url": null
+        },
+        {
+          "texto": "Amei muito, chegou rápido e direitinho! Comprarei mais vezes!",
+          "url": null
+        },
+        {
+          "texto": "BLACK ANTECIPADA MAIS VENDIDOS LANÇAMENTOS KITS ATÉ 20% OFF CLUBE. DE BENEFÍCIOS JORNAL ENDÖRFINA",
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
-      "lancamentos_novos": []
+      "promocoes_novas": [
+        "3 notificações Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Cashback de 15% em todas as compras",
+        "Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Cashback de 15% em todas as compras"
+      ],
+      "promocoes_encerradas": [
+        "Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Retirada lojas BH no mesmo dia Cashback de 15% em todas as compras",
+        "compra rápida + U Lançamento BLACK 10% OFF"
+      ],
+      "lancamentos_novos": [
+        "LANÇAMENTOS VER MAIS LANÇAMENTOS VER MAIS",
+        "LANÇAMENTOS VER MAIS",
+        "Amei muito, chegou rápido e direitinho! Comprarei mais vezes! Livia Almeida 10/26/2026",
+        "Amei muito, chegou rápido e direitinho! Comprarei mais vezes!",
+        "BLACK ANTECIPADA MAIS VENDIDOS LANÇAMENTOS KITS ATÉ 20% OFF CLUBE. DE BENEFÍCIOS JORNAL ENDÖRFINA"
+      ]
     },
     "nike": {
       "nome": "Nike",
