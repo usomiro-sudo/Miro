@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-05T15:05:08.536450+00:00",
+  "coletado_em": "2026-11-06T14:43:32.168390+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -12,8 +12,8 @@
         "Shorts Speed Marathon Cinza Escuro R$ 455,70 R$ 490 7% off",
         "R$ 455,70 R$ 490 7% off",
         "7% off",
-        "Shorts Speed Marathon Azul Escuro R$ 455,70 R$ 490 7% off",
-        "Camiseta Race Preto R$ 272 R$ 320 15% off"
+        "Crop Race Cinza Escuro R$ 503,50 R$ 530 5% off",
+        "R$ 503,50 R$ 530 5% off"
       ],
       "lancamentos": [
         {
@@ -21,8 +21,14 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "Crop Race Cinza Escuro R$ 503,50 R$ 530 5% off",
+        "R$ 503,50 R$ 530 5% off"
+      ],
+      "promocoes_encerradas": [
+        "Camiseta Race Preto R$ 272 R$ 320 15% off",
+        "Shorts Speed Marathon Azul Escuro R$ 455,70 R$ 490 7% off"
+      ],
       "lancamentos_novos": []
     },
     "woom": {
@@ -38,14 +44,8 @@
         "desconto"
       ],
       "lancamentos": [],
-      "promocoes_novas": [
-        "R$1.799,90 R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão Visa",
-        "R$ 1.709 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão Visa"
-      ],
-      "promocoes_encerradas": [
-        "R$ 1.619 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão Visa",
-        "R$1.799,90 R$ 1.619 , 91 à vista com desconto Pix - Vindi ou 12 x de R$ 149 , 99 Sem juros Cartão Visa"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": []
     },
     "vorr": {
