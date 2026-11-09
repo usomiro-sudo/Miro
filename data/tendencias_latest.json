@@ -1,19 +1,19 @@
 {
-  "coletado_em": "2026-11-08T13:59:48.029271+00:00",
+  "coletado_em": "2026-11-09T17:01:45.521444+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
       "url": "https://seekdopa.com",
       "erro": null,
       "promocoes": [
-        "Novembro 26 Black November Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
-        "Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
-        "Até 15% off",
-        "Shorts Speed Marathon Cinza Escuro R$ 455,70 R$ 490 7% off",
-        "R$ 455,70 R$ 490 7% off",
-        "7% off",
-        "Crop Race Cinza Escuro R$ 503,50 R$ 530 5% off",
-        "R$ 503,50 R$ 530 5% off"
+        "Novembro 26 Black November Fase 2 / 4 Até 25% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Fase 2 / 4 Até 25% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Até 25% off",
+        "Shorts Speed Marathon Cinza Escuro R$ 416,50 R$ 490 15% off",
+        "R$ 416,50 R$ 490 15% off",
+        "15% off",
+        "Crop Race Cinza Escuro R$ 477 R$ 530 10% off",
+        "R$ 477 R$ 530 10% off"
       ],
       "lancamentos": [
         {
@@ -21,8 +21,26 @@
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "Novembro 26 Black November Fase 2 / 4 Até 25% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Fase 2 / 4 Até 25% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Até 25% off",
+        "Shorts Speed Marathon Cinza Escuro R$ 416,50 R$ 490 15% off",
+        "R$ 416,50 R$ 490 15% off",
+        "15% off",
+        "Crop Race Cinza Escuro R$ 477 R$ 530 10% off",
+        "R$ 477 R$ 530 10% off"
+      ],
+      "promocoes_encerradas": [
+        "7% off",
+        "Até 15% off",
+        "Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Crop Race Cinza Escuro R$ 503,50 R$ 530 5% off",
+        "Novembro 26 Black November Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "R$ 455,70 R$ 490 7% off",
+        "R$ 503,50 R$ 530 5% off",
+        "Shorts Speed Marathon Cinza Escuro R$ 455,70 R$ 490 7% off"
+      ],
       "lancamentos_novos": []
     },
     "woom": {
