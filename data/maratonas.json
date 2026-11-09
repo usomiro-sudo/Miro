@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-02",
+  "atualizado_em": "2026-11-09",
   "descricao": "Maratonas (42K) do Brasil. A tela do calendario MIRO le este arquivo. Provas que ja passaram sao escondidas pela propria tela. Fontes: sites oficiais, Ticket Sports, Sympla, Sprinta, Road Runners, running.life.",
   "provas": [
     {
@@ -253,6 +253,16 @@
       "url": "https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=88364&origem=novo-site&lang=en-US"
     },
     {
+      "id": "osorio-2027-03-28",
+      "uf": "RS",
+      "name": "Osório City Marathon",
+      "city": "Osório",
+      "date": "2027-03-28",
+      "dateLabel": "28 de março de 2027",
+      "distancia": "42K",
+      "url": "https://www.sulsportshow.com.br/evento/2026/maratona/maratona-osorio-2027"
+    },
+    {
       "id": "sao-paulo-2027-04-04",
       "uf": "SP",
       "name": "Maratona Internacional de São Paulo",
@@ -440,7 +450,7 @@
       "date": "2027-07-17",
       "dateLabel": "17 de julho de 2027 (dia dos 42K a confirmar)",
       "distancia": "42K",
-      "url": null
+      "url": "https://www.sympla.com.br/evento/10a-maratona-jipa-city-2027-5k-10k-21k-42k-edicao-especial/3436905"
     },
     {
       "id": "sao-paulo-nike-2027-07-25",
