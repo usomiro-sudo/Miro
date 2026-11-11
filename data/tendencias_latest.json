@@ -1,19 +1,19 @@
 {
-  "coletado_em": "2026-11-10T15:20:59.078583+00:00",
+  "coletado_em": "2026-11-11T14:51:15.434718+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
       "url": "https://seekdopa.com",
       "erro": null,
       "promocoes": [
-        "Novembro 26 Black November Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
-        "Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
-        "Até 15% off",
-        "Shorts Speed Marathon Cinza Escuro R$ 416,50 R$ 490 15% off",
-        "R$ 416,50 R$ 490 15% off",
-        "15% off",
-        "Crop Race Cinza Escuro R$ 477 R$ 530 10% off",
-        "R$ 477 R$ 530 10% off"
+        "40% off Em peças selecionadas, até quinta, 12/11, às 10h. Ver feminino",
+        "40% off",
+        "Shorts Speed Marathon Cinza Escuro R$ 294 R$ 490 40% off",
+        "R$ 294 R$ 490 40% off",
+        "Shorts Speed Marathon Azul Escuro R$ 294 R$ 490 40% off",
+        "Camiseta Race Preto R$ 192 R$ 320 40% off",
+        "R$ 192 R$ 320 40% off",
+        "Camiseta Race Azul Marinho R$ 192 R$ 320 40% off"
       ],
       "lancamentos": [
         {
@@ -22,14 +22,24 @@
         }
       ],
       "promocoes_novas": [
-        "Novembro 26 Black November Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
-        "Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
-        "Até 15% off"
+        "40% off Em peças selecionadas, até quinta, 12/11, às 10h. Ver feminino",
+        "40% off",
+        "Shorts Speed Marathon Cinza Escuro R$ 294 R$ 490 40% off",
+        "R$ 294 R$ 490 40% off",
+        "Shorts Speed Marathon Azul Escuro R$ 294 R$ 490 40% off",
+        "Camiseta Race Preto R$ 192 R$ 320 40% off",
+        "R$ 192 R$ 320 40% off",
+        "Camiseta Race Azul Marinho R$ 192 R$ 320 40% off"
       ],
       "promocoes_encerradas": [
-        "Até 25% off",
-        "Fase 2 / 4 Até 25% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
-        "Novembro 26 Black November Fase 2 / 4 Até 25% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →"
+        "15% off",
+        "Até 15% off",
+        "Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "Crop Race Cinza Escuro R$ 477 R$ 530 10% off",
+        "Novembro 26 Black November Até 15% off Em peças selecionadas. Ver masculino Ver feminino Ver tudo →",
+        "R$ 416,50 R$ 490 15% off",
+        "R$ 477 R$ 530 10% off",
+        "Shorts Speed Marathon Cinza Escuro R$ 416,50 R$ 490 15% off"
       ],
       "lancamentos_novos": []
     },
@@ -57,14 +67,14 @@
       "url": "https://www.vorr.com.br",
       "erro": null,
       "promocoes": [
-        "FRETE GRÁTIS | ACIMA DE R$299",
-        "GANHE 12% OFF | CUPOM: BEMVINDO",
-        "COMPRAS NO PIX | GANHE 5% OFF",
+        "SÓ HOJE | FRETE GRÁTIS S/ MÍNIMO SÓ HOJE | CASHBACK EM DOBRO",
+        "SÓ HOJE | FRETE GRÁTIS S/ MÍNIMO",
         "3 notificações Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Cashback de 15% em todas as compras",
         "Frete Grátis reduzido para R$299 Pagamento no PIX com 5% Extra Cashback de 15% em todas as compras",
         "Frete Grátis reduzido para R$299",
         "GANHE 12% OFF",
-        "Clube Vörr - 18% OFF e vários benefícios"
+        "CASHBACK + FRETE GRÁTIS SÓ HOJE 11-11 VER MAIS CASHBACK + FRETE GRÁTIS SÓ HOJE 11-11 VER MAIS",
+        "CASHBACK + FRETE GRÁTIS SÓ HOJE 11-11 VER MAIS"
       ],
       "lancamentos": [
         {
@@ -88,20 +98,22 @@
           "url": null
         },
         {
-          "texto": "Amei muito, chegou rápido e direitinho! Comprarei mais vezes! Livia Almeida 10/26/2026",
-          "url": null
-        },
-        {
-          "texto": "Amei muito, chegou rápido e direitinho! Comprarei mais vezes!",
-          "url": null
-        },
-        {
           "texto": "BLACK ANTECIPADA MAIS VENDIDOS LANÇAMENTOS KITS ATÉ 20% OFF CLUBE. DE BENEFÍCIOS JORNAL ENDÖRFINA",
           "url": null
         }
       ],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "SÓ HOJE | FRETE GRÁTIS S/ MÍNIMO SÓ HOJE | CASHBACK EM DOBRO",
+        "SÓ HOJE | FRETE GRÁTIS S/ MÍNIMO",
+        "CASHBACK + FRETE GRÁTIS SÓ HOJE 11-11 VER MAIS CASHBACK + FRETE GRÁTIS SÓ HOJE 11-11 VER MAIS",
+        "CASHBACK + FRETE GRÁTIS SÓ HOJE 11-11 VER MAIS"
+      ],
+      "promocoes_encerradas": [
+        "COMPRAS NO PIX | GANHE 5% OFF",
+        "Clube Vörr - 18% OFF e vários benefícios",
+        "FRETE GRÁTIS | ACIMA DE R$299",
+        "GANHE 12% OFF | CUPOM: BEMVINDO"
+      ],
       "lancamentos_novos": []
     },
     "nike": {
