@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-14T13:53:21.139861+00:00",
+  "coletado_em": "2026-11-15T14:26:58.324068+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -92,16 +92,8 @@
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "4 notificações BLACK até 60% OFF Frete Grátis reduzido para R$299 Cashback de 15% em todas as compras! Pagamento no PIX com 5% Extra",
-        "BLACK até 60% OFF Frete Grátis reduzido para R$299 Cashback de 15% em todas as compras! Pagamento no PIX com 5% Extra",
-        "BLACK até 60% OFF"
-      ],
-      "promocoes_encerradas": [
-        "BLACK antecipada até 60% OFF",
-        "BLACK antecipada até 60% OFF Frete Grátis reduzido para R$299 Cashback de 15% em todas as compras! Pagamento no PIX com 5% Extra",
-        "MAIS VENDIDOS BLACK FEMININO BLACK MASCULINO KITS até 20% OFF MAIS VENDIDOS BLACK FEMININO BLACK MASCULINO KITS até 20% OFF"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": []
     },
     "nike": {
