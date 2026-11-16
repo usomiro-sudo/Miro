@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09",
+  "atualizado_em": "2026-11-16",
   "descricao": "Maratonas (42K) do Brasil. A tela do calendario MIRO le este arquivo. Provas que ja passaram sao escondidas pela propria tela. Fontes: sites oficiais, Ticket Sports, Sympla, Sprinta, Road Runners, running.life.",
   "provas": [
     {
@@ -481,6 +481,56 @@
       "dateLabel": "29 de agosto de 2027 (dia dos 42K a confirmar)",
       "distancia": "42K",
       "url": "https://www.ticketsports.com.br/e/MARATONA-DE-VIT%C3%93RIA-2027-88251"
+    },
+    {
+      "id": "ponta-grossa-2027-05-23",
+      "uf": "PR",
+      "name": "Maratona Internacional de Ponta Grossa",
+      "city": "Ponta Grossa",
+      "date": "2027-05-23",
+      "dateLabel": "23 de maio de 2027",
+      "distancia": "42K",
+      "url": "https://www.ticketsports.com.br/e/MARATONA+INTERNACIONAL+DE+PG+-+2027-88123"
+    },
+    {
+      "id": "porto-alegre-2027-08-21",
+      "uf": "RS",
+      "name": "New Balance 42K Porto Alegre",
+      "city": "Porto Alegre",
+      "date": "2027-08-21",
+      "dateLabel": "21 de agosto de 2027 (dia dos 42K a confirmar)",
+      "distancia": "42K",
+      "url": "https://www.ticketsports.com.br/e/NEW+BALANCE+42K+PORTO+ALEGRE+2027-87987"
+    },
+    {
+      "id": "florianopolis-2027-08-29",
+      "uf": "SC",
+      "name": "Maratona Internacional de Floripa Fibra",
+      "city": "Florianópolis",
+      "date": "2027-08-29",
+      "dateLabel": "29 de agosto de 2027",
+      "distancia": "42K",
+      "url": "https://www.ticketsports.com.br/e/MARATONA+INTERNACIONAL+DE+FLORIPA+FIBRA+2027-88278"
+    },
+    {
+      "id": "macae-2027-09-12",
+      "uf": "RJ",
+      "name": "Corrida Ecológica do Sana + Maratona Trail (trail)",
+      "city": "Macaé",
+      "date": "2027-09-12",
+      "dateLabel": "12 de setembro de 2027",
+      "distancia": "42K",
+      "url": "https://www.ticketsports.com.br/e/19%C2%AA+CORRIDA+ECOL%C3%93GICA+DO+SANA+%2B+MARATONA+TRAIL+2026-88783"
+    },
+    {
+      "id": "criciuma-2027-09-25",
+      "uf": "SC",
+      "name": "Maratona de Criciúma",
+      "city": "Criciúma",
+      "date": "2027-09-25",
+      "dateLabel": "25 de setembro de 2027",
+      "distancia": "42K",
+      "url": "https://www.ticketsports.com.br/e/MARATONA+DE+CRICI%C3%9AMA+2027-88611"
     }
   ]
 }
