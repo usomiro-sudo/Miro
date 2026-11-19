@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-18T16:05:46.942581+00:00",
+  "coletado_em": "2026-11-19T16:12:59.007914+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -31,17 +31,21 @@
       "erro": null,
       "promocoes": [
         "BLACK FRIDAY",
+        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida",
         "BLACK FRIDAY Ver tudo",
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
         "Destaque Black Friday",
         "Black Friday",
-        "Camiseta Light Run Branco R$149,90 R$ 142 , 41 à vista com desconto Pix - Vindi ou 2 x de R$ 74 , 95 Sem juros Cartão Visa",
-        "R$149,90 R$ 142 , 41 à vista com desconto Pix - Vindi ou 2 x de R$ 74 , 95 Sem juros Cartão Visa"
+        "Camiseta Light Run Branco R$149,90 R$ 142 , 41 à vista com desconto Pix - Vindi ou 2 x de R$ 74 , 95 Sem juros Cartão Visa"
       ],
       "lancamentos": [],
-      "promocoes_novas": [],
-      "promocoes_encerradas": [],
+      "promocoes_novas": [
+        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida"
+      ],
+      "promocoes_encerradas": [
+        "R$149,90 R$ 142 , 41 à vista com desconto Pix - Vindi ou 2 x de R$ 74 , 95 Sem juros Cartão Visa"
+      ],
       "lancamentos_novos": []
     },
     "vorr": {
@@ -56,7 +60,7 @@
         "BLACK até 60% OFF Frete Grátis reduzido para R$299 Cashback de 15% em todas as compras! Pagamento no PIX com 5% Extra",
         "BLACK até 60% OFF",
         "Frete Grátis reduzido para R$299",
-        "+10% OFF extra já aplicado no carrinho"
+        "SÓ HOJE: 10% OFF aplicado no carrinho"
       ],
       "lancamentos": [
         {
@@ -65,14 +69,6 @@
         },
         {
           "texto": "NOVA COLEÇÃO",
-          "url": null
-        },
-        {
-          "texto": "Oferta do dia Lançamento",
-          "url": null
-        },
-        {
-          "texto": "Lançamento",
           "url": null
         },
         {
@@ -88,19 +84,27 @@
           "url": null
         },
         {
-          "texto": "compra rápida + P M G GG XG Lançamento BLACK 10% OFF",
+          "texto": "compra rápida + Lançamento BOLSA ÜRBAN CAMURÇA - AREIA R$ 901,55 no pix ou R$ 739,27 CLUBE. ou 6x de R$ 158,17 sem juros",
+          "url": null
+        },
+        {
+          "texto": "compra rápida + Lançamento",
+          "url": null
+        },
+        {
+          "texto": "Lançamento",
           "url": null
         }
       ],
       "promocoes_novas": [
-        "+10% OFF extra já aplicado no carrinho"
+        "SÓ HOJE: 10% OFF aplicado no carrinho"
       ],
       "promocoes_encerradas": [
-        "GANHE 12% OFF"
+        "+10% OFF extra já aplicado no carrinho"
       ],
       "lancamentos_novos": [
-        "Oferta do dia Lançamento",
-        "compra rápida + P M G GG XG Lançamento BLACK 10% OFF"
+        "compra rápida + Lançamento BOLSA ÜRBAN CAMURÇA - AREIA R$ 901,55 no pix ou R$ 739,27 CLUBE. ou 6x de R$ 158,17 sem juros",
+        "compra rápida + Lançamento"
       ]
     },
     "nike": {
