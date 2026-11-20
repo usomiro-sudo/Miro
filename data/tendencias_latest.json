@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-19T16:12:59.007914+00:00",
+  "coletado_em": "2026-11-20T15:51:57.312679+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -31,7 +31,7 @@
       "erro": null,
       "promocoes": [
         "BLACK FRIDAY",
-        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida",
+        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida Casual",
         "BLACK FRIDAY Ver tudo",
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
@@ -41,10 +41,10 @@
       ],
       "lancamentos": [],
       "promocoes_novas": [
-        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida"
+        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida Casual"
       ],
       "promocoes_encerradas": [
-        "R$149,90 R$ 142 , 41 à vista com desconto Pix - Vindi ou 2 x de R$ 74 , 95 Sem juros Cartão Visa"
+        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida"
       ],
       "lancamentos_novos": []
     },
@@ -84,27 +84,24 @@
           "url": null
         },
         {
-          "texto": "compra rápida + Lançamento BOLSA ÜRBAN CAMURÇA - AREIA R$ 901,55 no pix ou R$ 739,27 CLUBE. ou 6x de R$ 158,17 sem juros",
+          "texto": "A camisa chegou rapidinho A camisa chegou rapidinho, super linda Marco Valadares 11/17/2026",
           "url": null
         },
         {
-          "texto": "compra rápida + Lançamento",
+          "texto": "A camisa chegou rapidinho A camisa chegou rapidinho, super linda",
           "url": null
         },
         {
-          "texto": "Lançamento",
+          "texto": "A camisa chegou rapidinho",
           "url": null
         }
       ],
-      "promocoes_novas": [
-        "SÓ HOJE: 10% OFF aplicado no carrinho"
-      ],
-      "promocoes_encerradas": [
-        "+10% OFF extra já aplicado no carrinho"
-      ],
+      "promocoes_novas": [],
+      "promocoes_encerradas": [],
       "lancamentos_novos": [
-        "compra rápida + Lançamento BOLSA ÜRBAN CAMURÇA - AREIA R$ 901,55 no pix ou R$ 739,27 CLUBE. ou 6x de R$ 158,17 sem juros",
-        "compra rápida + Lançamento"
+        "A camisa chegou rapidinho A camisa chegou rapidinho, super linda Marco Valadares 11/17/2026",
+        "A camisa chegou rapidinho A camisa chegou rapidinho, super linda",
+        "A camisa chegou rapidinho"
       ]
     },
     "nike": {
