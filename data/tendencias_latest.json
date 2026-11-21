@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-20T15:51:57.312679+00:00",
+  "coletado_em": "2026-11-21T15:01:31.093987+00:00",
   "concorrentes": {
     "seekdopa": {
       "nome": "Seekdopa",
@@ -31,20 +31,22 @@
       "erro": null,
       "promocoes": [
         "BLACK FRIDAY",
-        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida Casual",
+        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida Casual Natação",
         "BLACK FRIDAY Ver tudo",
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599 TROCA GRÁTIS EM 7 DIAS PAGUE EM ATÉ 12x SEM JUROS LOJA 100% SEGURA",
         "FRETE GRÁTIS COMPRAS ACIMA DE R$599",
         "Destaque Black Friday",
         "Black Friday",
-        "Camiseta Light Run Branco R$149,90 R$ 142 , 41 à vista com desconto Pix - Vindi ou 2 x de R$ 74 , 95 Sem juros Cartão Visa"
+        "27% OFF"
       ],
       "lancamentos": [],
       "promocoes_novas": [
-        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida Casual"
+        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida Casual Natação",
+        "27% OFF"
       ],
       "promocoes_encerradas": [
-        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida"
+        "BLACK FRIDAY Ver tudo Triathlon Ciclismo Corrida Casual",
+        "Camiseta Light Run Branco R$149,90 R$ 142 , 41 à vista com desconto Pix - Vindi ou 2 x de R$ 74 , 95 Sem juros Cartão Visa"
       ],
       "lancamentos_novos": []
     },
@@ -98,11 +100,7 @@
       ],
       "promocoes_novas": [],
       "promocoes_encerradas": [],
-      "lancamentos_novos": [
-        "A camisa chegou rapidinho A camisa chegou rapidinho, super linda Marco Valadares 11/17/2026",
-        "A camisa chegou rapidinho A camisa chegou rapidinho, super linda",
-        "A camisa chegou rapidinho"
-      ]
+      "lancamentos_novos": []
     },
     "nike": {
       "nome": "Nike",
